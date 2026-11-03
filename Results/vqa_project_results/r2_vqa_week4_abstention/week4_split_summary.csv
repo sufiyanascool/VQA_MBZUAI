@@ -1,0 +1,4 @@
+split_name,num_samples,num_correct,num_incorrect,accuracy
+train,80,36,44,0.45
+validation,10,5,5,0.5
+test,10,4,6,0.4

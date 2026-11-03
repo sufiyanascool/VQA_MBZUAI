@@ -1,0 +1,31 @@
+{
+    "match_level_used": "relaxed",
+    "n_pairs": 7,
+    "n_degenerate_distribution_rows": 10,
+    "mcnemar_test": {
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "n00": 6,
+        "n01": 1,
+        "n10": 0,
+        "n11": 0
+    },
+    "flip_rates": {
+        "inside": 0.0,
+        "outside": 0.14285714285714285
+    },
+    "wilcoxon_js_divergence_test": {
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "mean_inside": 0.0,
+        "mean_outside": 0.0,
+        "n_pairs_used": 4,
+        "n_pairs_dropped_degenerate": 3
+    },
+    "wilcoxon_confidence_drop_test": {
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "mean_inside": 0.0,
+        "mean_outside": 0.0
+    }
+}

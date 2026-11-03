@@ -1,0 +1,4 @@
+Model,Error Detection AUROC,Error Detection AUPRC,Error Detection AURC
+Raw Confidence Only,0.4,0.5,0.5050793650793651
+Evidence Only,0.8,0.7142857142857143,0.19718253968253968
+Combined Confidence + Evidence,0.8,0.7142857142857143,0.19718253968253968

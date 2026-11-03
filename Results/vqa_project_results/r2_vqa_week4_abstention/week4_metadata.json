@@ -1,0 +1,46 @@
+{
+    "random_seed": 42,
+    "split_proportions": {
+        "train": 0.8,
+        "validation": 0.1,
+        "test": 0.1
+    },
+    "model_used": "LogisticRegression",
+    "features_used_per_config": {
+        "A": {
+            "name": "Raw Confidence Only",
+            "features": [
+                "original_confidence"
+            ]
+        },
+        "B": {
+            "name": "Evidence Features Only (Transformed)",
+            "features": [
+                "sufficiency_log",
+                "necessity_log",
+                "stability",
+                "specificity"
+            ]
+        },
+        "C": {
+            "name": "Combined Features (Transformed)",
+            "features": [
+                "original_confidence",
+                "sufficiency_log",
+                "necessity_log",
+                "stability",
+                "specificity"
+            ]
+        }
+    },
+    "preprocessing_transformation": {
+        "type": "signed_log_transform",
+        "applied_to": [
+            "sufficiency",
+            "necessity"
+        ]
+    },
+    "fitting_split": "train",
+    "validation_split_for_evaluation": "validation",
+    "test_data_untouched_during_calibration": "YES"
+}

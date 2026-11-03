@@ -1,0 +1,5 @@
+rule,accuracy,better_than_direct,worse_than_direct,p_vs_direct
+direct,0.52,0,0,1.0
+always_crop,0.478,18,39,0.0075081755341502
+week6_rule (2 of 3 checks),0.506,3,10,0.09228515625
+"majority vote (direct, crop, shifted crop)",0.488,13,29,0.019520472782460274

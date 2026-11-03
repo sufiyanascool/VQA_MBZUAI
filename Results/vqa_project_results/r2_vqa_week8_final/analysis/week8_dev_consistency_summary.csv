@@ -1,0 +1,6 @@
+check,value
+A1 vs C1 accuracy gap (all rows),0.09999999999999998
+"full vs simple crop consistency, same run (accuracy difference)",-0.010000000000000009
+direct accuracy on the 600 cases,0.415
+full accuracy on the 600 cases (abstain = wrong),0.5166666666666667
+answers changed to right minus changed to wrong,63.0

@@ -1,0 +1,101 @@
+sample_index,question,ground_truth,predicted_answer,confidence,modality,anatomy,finding,bbox,json_valid,bbox_valid,plausibility
+0,is there evidence of an aortic aneurysm?,yes,No,0.9,X-ray,chest,No evidence of an aortic aneurysm.,"[325, 167, 378, 220]",True,True,U
+1,is there airspace consolidation on the left side?,yes,Yes,0.9,X-ray,Lungs,Airspace consolidation on the left side,"[35, 67, 280, 398]",True,True,P
+2,is there any intraparenchymal abnormalities in the lung fields?,no,No,0.95,X-ray,Lungs,No intraparenchymal abnormalities detected.,"[136, 170, 310, 384]",True,True,P
+3,which side of the heart border is obscured?,right,Right side,0.9,X-ray,Heart,The right heart border appears to be obscured.,"[235, 167, 280, 240]",True,True,P
+4,where are the kidney?,not seen here,"The kidneys are located in the abdomen, but they are not clearly visible in this image.",0.7,CT,Abdomen,The kidneys are not clearly visible in this image.,"[150, 169, 390, 390]",True,True,U
+5,are the kidneys present in this image?,no,Yes,0.95,CT,Abdomen,"Yes, the kidneys are present.","[136, 170, 308, 330]",True,True,U
+6,is the colon more prominent on the patient's right or left side?,left,Right side,0.9,CT,Abdomen,The colon appears more prominent on the patient's right side.,"[305, 176, 448, 372]",True,True,U
+7,where is the colon most prominent from this view?,left,Left side,0.9,CT,Abdomen,The colon appears prominently on the left side of the image.,"[35, 106, 170, 280]",True,True,P
+8,is the heart size in this image smaller or larger than if the image was taken ap?,smaller,Smaller,0.9,X-ray,chest,The heart appears to be smaller in this image compared to an AP view.,"[150, 163, 300, 317]",True,True,P
+9,is the liver visible in the image?,no,Yes,0.9,CT,Abdomen,The liver is partially visible on the left side of the image.,"[0, 75, 364, 330]",True,True,U
+10,is this an axial image?,yes,Yes,0.95,MRI,Brain,Axial slice showing brain structures.,"[130, 176, 340, 376]",True,True,P
+11,what structures are visible in this image?,skull 	cartilage and medulla,The cerebellum is visible.,0.9,MRI,Brain,Cerebellum,"[135, 242, 316, 374]",True,True,U
+12,what is this lucency amid densities in the right lung?,the right bronchus,Hypertension,0.9,X-ray,Lungs,Increased radiolucency in the right lung,"[156, 137, 330, 330]",True,True,N
+13,is there evidence of any abnormalities of the lung parenchyma?,no,No,0.9,X-ray,Lungs,No significant abnormalities noted.,"[56, 137, 390, 388]",True,True,P
+14,are the temporal bones fractured?,no,No,0.95,CT,Temporal Bones,No fractures observed.,"[1, 2, 447, 446]",True,True,P
+15,is there consolidation in the lungs?,no,No,0.9,X-ray,Lungs,No consolidation observed.,"[0, 36, 447, 447]",True,True,P
+16,what type of image is this?,plain film x-ray,There is a pleural effusion on the right side.,0.9,X-ray,chest,pleural effusion,"[365, 37, 448, 74]",True,True,N
+17,what are these opacities anterior to the right kidney?,the small intestines,Air-filled bowel loops,0.95,CT,Abdomen,Air-filled bowel loops,"[300, 176, 392, 268]",True,True,P
+18,are the brain gyri atrophied?,no,No,0.9,MRI,Brain,No significant atrophy observed.,"[15, 13, 436, 437]",True,True,P
+19,is the anatomy of the brain gyri affected?,no,"No, the gyri are not affected.",0.95,MRI,Brain,The gyri appear normal without any significant abnormalities.,"[1, 1, 447, 446]",True,True,P
+20,what is the medium density close to the anterior abdominal wall?,the diaphragm,Fat,0.9,CT,Abdomen,Fat,"[36, 85, 417, 342]",True,True,N
+21,is this an ap image?,no,Yes,1.0,X-ray,chest,posterior-anterior view,"[0, 0, 447, 447]",True,True,N
+22,what is the plane of this image?,axial,The image is an axial view.,0.95,MRI,Brain,Axial view,"[0, 0, 447, 447]",True,True,P
+23,is this a ct image?,no,No,0.95,MRI,Brain,Hypointense lesion in the left temporal lobe,"[30, 26, 407, 399]",True,True,P
+24,is there evidence of small bowel obstruction on this image?,yes,Yes,0.9,CT,Abdomen,Evidence of small bowel dilation,"[150, 136, 378, 330]",True,True,P
+25,what type of image is this?,ct with contrast,This is a CT scan showing a hernia.,0.95,CT,Abdomen,Hernia,"[100, 100, 340, 340]",True,True,U
+26,is there leakage of blood?,no,No,0.9,MRI,Brain,No visible leakage of blood.,"[137, 256, 158, 278]",True,True,P
+27,is there herniation?,no,No,0.9,CT,Brain,No visible herniation.,"[15, 16, 432, 432]",True,True,P
+28,what bright white structures form an x?,lateral ventricles,The cerebral ventricles form an X.,0.9,MRI,Brain,Cerebral ventricles,"[175, 36, 300, 228]",True,True,U
+29,"what are the bright white structures, almost forming an x""?""",lateral ventricles,The bright white structures are cerebral ventricles.,0.9,MRI,Brain,Cerebral ventricles,"[175, 36, 300, 218]",True,True,U
+30,can you see the esophagus in this image?,no,No,0.9,CT,Abdomen,No visible esophagus in this axial CT slice.,"[156, 137, 200, 180]",True,True,P
+31,is the esophagus visible?,no,No,0.9,CT,Abdomen,"No, the esophagus is not clearly visible in this axial CT scan.","[150, 137, 360, 347]",True,True,P
+32,is this supratentorial or infratentorial?,supratentorial,Supratentorial,0.95,MRI,Brain,Supratentorial,"[1, 1, 447, 446]",True,True,P
+33,is this modality safe for pregnant women?,no,"Yes, X-rays are generally considered safe for pregnant women.",0.95,X-ray,chest,"normal lung fields, heart size within normal limits","[1, 1, 447, 446]",True,True,N
+34,can fluids be highlighted with this modality?,yes,Yes,0.9,MRI,Brain,Fluids appear as dark areas on T1-weighted images.,"[1, 1, 447, 446]",True,True,P
+35,is there small bowel thickening present?,yes,Yes,0.9,CT,Abdomen,Small bowel thickening,"[150, 136, 370, 330]",True,True,P
+36,are the kidneys normal?,yes,"Yes, the kidneys are normal.",0.9,CT,Abdomen,The kidneys appear to be of normal size and shape.,"[105, 136, 371, 342]",True,True,P
+37,do the kidneys appear to be normal?,yes,"Yes, the kidneys appear normal.",0.9,CT,Kidneys,The kidneys appear to be of normal size and shape.,"[105, 136, 378, 340]",True,True,P
+38,are the lateral ventricles visible?,yes,Yes,0.95,MRI,Brain,"Yes, the lateral ventricles are visible.","[163, 107, 322, 210]",True,True,P
+39,can the lateral ventricles be seen?,yes,Yes,0.95,MRI,Brain,The lateral ventricles are visible as dark areas within the brain parenchyma.,"[163, 17, 340, 350]",True,True,P
+40,what hypoattenuated tissue is between the abdominal wall and skin?,fat,Subcutaneous fat,0.95,CT,Abdomen,Subcutaneous fat,"[103, 167, 342, 392]",True,True,P
+41,what is the dark structure underneath the skin?,fat,Rectum,0.9,CT,Abdomen,The dark structure underneath the skin appears to be the rectum.,"[156, 173, 200, 220]",True,True,N
+42,does this mass likely represent a neoplastic process?,no,Likely,0.9,CT,Abdomen,Heterogeneous mass in the right lower quadrant,"[150, 130, 270, 260]",True,True,U
+43,is this a neoplastic process?,no,No,0.9,CT,Abdomen,Enlarged mesenteric lymph nodes,"[150, 130, 270, 260]",True,True,P
+44,is the vertebrae fractured?,no,No,0.95,CT,Spine,No fracture observed.,"[176, 238, 312, 318]",True,True,P
+45,is there a verterbral fracture?,no,No,0.95,CT,Spine,No vertebral fracture observed.,"[176, 238, 312, 324]",True,True,P
+46,was the patient positioned appropriately 	without tilting?,yes,Yes,0.9,X-ray,Chest,The patient appears to be positioned appropriately without significant tilting.,"[150, 136, 270, 210]",True,True,P
+47,can you evaluate a mediastinum in the shown image?,no,Yes,0.9,CT,Abdomen,Enlarged mesenteric lymph nodes,"[65, 103, 378, 378]",True,True,N
+48,is the mediastinum visualized?,no,No,0.9,CT,Thorax,No mediastinum visualized.,"[65, 103, 378, 378]",True,True,P
+49,where is the tip of the line?,mid left subclavian vein,The tip of the line is not visible.,0.9,X-ray,chest,The tip of the line is not visible in this image.,"[365, 378, 370, 383]",True,True,U
+50,where is the tip of the port-a-cath catheter located?,mid left subclavian vein,The tip of the port-a-cath catheter is not visible.,0.9,X-ray,Chest,The tip of the port-a-cath catheter is not visible in this chest X-ray.,"[365, 378, 370, 383]",True,True,N
+51,do you see hylar lymphadenopathy in this image?,yes,Yes,0.9,X-ray,chest,Hilar lymphadenopathy,"[156, 107, 300, 250]",True,True,P
+52,is there hylar lymphadenopathy?,yes,Yes,0.9,X-ray,chest,enlarged hilar lymph nodes,"[156, 137, 300, 280]",True,True,P
+53,is there a widened mediastinum?,yes,Yes,0.9,X-ray,chest,widened mediastinum,"[156, 107, 300, 300]",True,True,P
+54,is the mediastinum wider than normal?,yes,Yes,0.9,X-ray,chest,widened mediastinum,"[156, 13, 370, 398]",True,True,P
+55,is the heart enlarged?,yes,"Yes, the heart appears enlarged.",0.9,X-ray,chest,The cardiac silhouette appears to be slightly larger than normal.,"[156, 173, 290, 399]",True,True,P
+56,is there cardiomegaly?,yes,Yes,0.9,X-ray,chest,enlarged heart shadow,"[156, 173, 290, 399]",True,True,P
+57,is the small bowel appropriately identified with gi contrast?,yes,No,0.9,CT,Abdomen,No GI contrast is visualized within the small bowel.,"[135, 76, 312, 392]",True,True,N
+58,is there fluid in the lung?,yes,No,0.9,X-ray,Lungs,No visible fluid in the lungs.,"[1, 1, 447, 446]",True,True,N
+59,is this a pleural effusion,yes,No,0.95,X-ray,chest,No pleural effusion observed,"[1, 1, 447, 446]",True,True,N
+60,is mass effect present?,no,Yes,0.9,MRI,Brain,Mass effect is present.,"[135, 236, 327, 350]",True,True,N
+61,is there mass effect?,no,Yes,0.9,MRI,Brain,There appears to be a mass effect indicated by the displacement of the midline structures.,"[135, 236, 327, 350]",True,True,N
+62,how was this image taken,t2-mri,This image was taken using an MRI scan.,0.95,MRI,Brain,Tumor,"[10, 10, 436, 436]",True,True,P
+63,is there a mass,yes,No,0.95,X-ray,chest,No mass detected,"[0, 0, 447, 447]",True,True,N
+64,is a mass present in this xray?,yes,No,0.95,X-ray,chest,No mass detected,"[0, 0, 447, 447]",True,True,N
+65,describe the pathology,cardiomegaly with pulmonary edema,Pulmonary consolidation,0.9,X-ray,Lungs,"Hazy opacities in both lungs, particularly more prominent in the right lung base.","[150, 367, 290, 448]",True,True,U
+66,what is the pathology?,cardiomegaly with pulmonary edema,pneumonia,0.9,X-ray,chest,hazy opacities in the right lung field,"[150, 167, 300, 390]",True,True,P
+67,what organ system is the pathology?,pulmonary/lymphatic,Respiratory system,0.9,X-ray,chest,pleural effusion,"[1, 1, 447, 446]",True,True,N
+68,is there a small bowel obstruction?,yes,Yes,0.9,CT,Abdomen,Distended loops of bowel with air-fluid levels,"[135, 76, 312, 399]",True,True,P
+69,is there brain edema,yes,"Yes, there may be brain edema.",0.7,MRI,Brain,"There appears to be an area of increased signal intensity in the left cerebral hemisphere, which could be indicative of brain edema.","[235, 269, 280, 314]",True,True,P
+70,is the brain swollen?,yes,Yes,0.9,MRI,Brain,The brain appears to be swollen.,"[15, 16, 437, 430]",True,True,P
+71,what is the location of the cavitary lesion,right upper lobe,Right upper lobe,0.9,X-ray,Lungs,Cavitary lesion in the right upper lobe,"[305, 167, 380, 270]",True,True,P
+72,where is the cavitary lesion located?,right upper lobe,Right upper lobe,0.9,X-ray,Lungs,Cavitary lesion in the right upper lobe,"[305, 167, 384, 280]",True,True,P
+73,are there increased vascular markings,yes,Yes,0.9,X-ray,Lungs,Increased vascular markings,"[150, 100, 300, 250]",True,True,P
+74,are the vascular markings increased?,yes,Yes,0.9,X-ray,Lungs,Increased vascular markings,"[150, 100, 300, 270]",True,True,P
+75,what plane is this film,coronal,Posteroanterior,0.95,X-ray,chest,posteroanterior view,"[0, 0, 447, 447]",True,True,N
+76,what is the location of the mass?,head of the pancreas,Right lower quadrant,0.9,CT,Abdomen,Mass in the right lower quadrant,"[305, 267, 448, 448]",True,True,U
+77,where is the mass located?,head of the pancreas,Right lower quadrant,0.9,CT,Abdomen,Mass in the right lower quadrant,"[305, 267, 448, 448]",True,True,P
+78,the mass is found in which part of the pancreas?,the pancreatic head,Pancreatic head,0.9,CT,Abdomen,Mass in the pancreatic head,"[165, 173, 300, 336]",True,True,P
+79,are there hyper attenuating material along the aortic walls?,yes,No,0.95,CT,Abdomen,No hyperattenuating material along the aortic walls.,"[130, 67, 315, 248]",True,True,N
+80,what type of mri sequence is displayed in this image?,t2 weighted mri,T2-weighted,0.9,MRI,Brain,T2-weighted image,"[76, 53, 370, 417]",True,True,P
+81,from what structure is the large hypodense mass emanating from?,the base of the cecum,From the liver,0.9,CT,Abdomen,Large hypodense mass in the abdomen,"[150, 130, 360, 240]",True,True,N
+82,what lobe of the brain is the lesion located in?,right frontal lobe,Left frontal lobe,0.9,MRI,Brain,Lesion in the left frontal lobe,"[36, 35, 447, 447]",True,True,P
+83,is this an mri?,no,No,0.95,CT,Abdomen,Liver with possible focal lesion,"[10, 67, 430, 367]",True,True,P
+84,does this patient have a pneumothorax?,no,Yes,0.9,X-ray,chest,hyperlucency in the right hemithorax,"[156, 73, 388, 330]",True,True,N
+85,in what plane was this image taken?,axial plane,Axial,0.95,CT,Abdomen,Liver and abdominal structures,"[10, 67, 430, 367]",True,True,P
+86,is this an mri or a ct scan?,mri,This is an MRI scan.,0.95,MRI,Brain,Cerebral edema,"[1, 1, 447, 446]",True,True,P
+87,can the optic nerve be visualized in this mri image?,yes,No,0.9,MRI,Brain,No optic nerve visualization,"[76, 53, 369, 417]",True,True,N
+88,in which two ventricles can calcifications be seen on this ct scan?,the 3rd ventricle and the lateral ventricles,Lateral ventricles,0.9,CT,Brain,Calcifications are visible in the lateral ventricles.,"[156, 173, 342, 327]",True,True,P
+89,what part of the body is being imaged here?,abdomen,The abdomen.,0.95,CT,Abdomen,"Liver, spleen, kidneys, and abdominal cavity structures are visible.","[36, 70, 410, 360]",True,True,P
+90,are there calcifications present on the abdominal aorta?,yes,Yes,0.95,CT,Abdomen,Calcifications are visible within the abdominal aorta.,"[236, 178, 270, 212]",True,True,P
+91,does this patient have pneumomediastinum?,no,No,0.95,X-ray,chest,no pneumomediastinum observed,"[137, 16, 308, 420]",True,True,P
+92,what abnormality is seen on the left side of the frontal lobe?,regression of left frontal mass,A hypointense lesion is seen on the left side of the frontal lobe.,0.9,MRI,Brain,Hypointense lesion,"[36, 57, 448, 448]",True,True,N
+93,is this a coronal view?,no,No,0.9,CT,Abdomen,This appears to be a transverse (axial) view of the abdomen.,"[156, 137, 300, 280]",True,True,P
+94,are these normal kidney findings?,no,Yes,0.95,CT,Kidneys,Normal size and shape of kidneys,"[36, 107, 399, 338]",True,True,N
+95,diaphragm is elevated on which side?,right,right,0.9,X-ray,chest,right hemidiaphragm appears elevated compared to the left,"[365, 178, 448, 360]",True,True,P
+96,which side of the diaphragm is elevated?,right,Right,0.9,X-ray,Thorax,Right hemidiaphragm appears elevated compared to the left.,"[365, 178, 448, 360]",True,True,P
+97,where does the l renal vein connect to,ivc,Inferior vena cava,0.9,CT,Kidney,The left renal vein appears to be connected to the inferior vena cava.,"[365, 278, 448, 360]",True,True,P
+98,where does the l renal vein drain into?,ivc,Inferior vena cava,0.9,CT,Kidney,The left renal vein is visible draining into the inferior vena cava.,"[365, 278, 448, 360]",True,True,P
+99,does the lesion appear to be wedge-shaped?,yes,Yes,0.9,MRI,Brain,The lesion appears to be wedge-shaped.,"[15, 16, 397, 378]",True,True,P

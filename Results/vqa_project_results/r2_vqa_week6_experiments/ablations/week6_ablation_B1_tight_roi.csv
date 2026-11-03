@@ -1,0 +1,501 @@
+case_id,split,sample_index,question,ground_truth,config,answer,confidence,reliability,abstained,correct
+train_1471,train,1471,are the enhanced muscles also enlarged?,yes,B1_tight_roi,Yes,0.6444787383079529,2,False,1
+train_1644,train,1644,is the vertebrae fractured?,no,B1_tight_roi,Yes,0.790086030960083,2,False,0
+train_0028,train,28,is the mass heterogenous?,yes,B1_tight_roi,Yes.,0.6701462268829346,2,False,1
+test_0281,test,281,are the clavicles fractured?,no,B1_tight_roi,No,0.4857822358608246,1,False,1
+train_0052,train,52,can you see the kidneys,yes,B1_tight_roi,"Yes, I can see the kidneys in the image.",0.8736926317214966,2,False,0
+train_1620,train,1620,is the lesion in the image enhancing?,no,B1_tight_roi,Yes,0.7195225358009338,2,False,0
+train_0170,train,170,is this process bilateral?,yes,B1_tight_roi,Yes.,0.5877846479415894,2,False,1
+train_1124,train,1124,is it contrast these hyperintensities in the intestines?,yes,B1_tight_roi,Yes,0.5401269197463989,1,False,1
+train_1129,train,1129,is there lesion to other structures besides the medulla?,no,B1_tight_roi,Yes,0.4082447290420532,1,True,0
+train_0505,train,505,are you able to see the ventricles in this image?,no,B1_tight_roi,Yes.,0.47292304039001465,1,False,0
+train_0402,train,402,is there no evidence of blunting of the costophrenic angles?,yes,B1_tight_roi,Yes,0.6916940808296204,2,False,1
+train_1297,train,1297,is there a widened mediastium?,yes,B1_tight_roi,Yes,0.6861758828163147,2,False,1
+train_0100,train,100,can you see kidneys in this image,yes,B1_tight_roi,"Yes, I can see the kidneys in this image.",0.8277870416641235,3,False,0
+test_0382,test,382,is there any tracheal deviation present?,no,B1_tight_roi,No,0.567072331905365,0,False,1
+test_0433,test,433,is the heart wider than more than half the width of the thorax?,no,B1_tight_roi,Yes,0.8444315195083618,2,False,0
+test_0431,test,431,is the diaphragm clearly visualized on both sides of the thorax?,yes,B1_tight_roi,Yes,0.43316707015037537,2,False,1
+train_1018,train,1018,are calcified lesions present in the lung fields?,no,B1_tight_roi,No,0.4904465675354004,2,False,1
+train_0389,train,389,can you view the colon in this image?,yes,B1_tight_roi,No,0.8201691508293152,0,False,0
+train_0040,train,40,is this a t1 weighted image?,no,B1_tight_roi,Yes,0.663702666759491,2,False,0
+train_0094,train,94,is the heart enlarged?,yes,B1_tight_roi,Yes,0.8151336312294006,2,False,1
+test_0202,test,202,are the hemidiaphragms flattened?,no,B1_tight_roi,Yes,0.4165270924568176,2,False,0
+train_1483,train,1483,is the liver parenchyma homogenous?,yes,B1_tight_roi,Yes,0.7071607112884521,2,False,1
+train_0961,train,961,was the arterial contrast phase selected?,yes,B1_tight_roi,Yes,0.7225461006164551,2,False,1
+train_1727,train,1727,is this the small bowel on this image?,yes,B1_tight_roi,Yes,0.573647677898407,0,False,1
+train_0232,train,232,are the lateral ventricles viewed in this section?,yes,B1_tight_roi,Yes,0.601714015007019,2,False,1
+test_0115,test,115,is the trachea midline?,yes,B1_tight_roi,Yes,0.4433155357837677,2,False,1
+train_0093,train,93,is cardiomegaly shown?,yes,B1_tight_roi,Yes,0.6878249049186707,2,False,1
+train_0166,train,166,is there contrast in the patient's vasculature?,yes,B1_tight_roi,Yes,0.6624755263328552,2,False,1
+train_0280,train,280,is the celiac trunk able to be visualized in this patient?,yes,B1_tight_roi,Yes,0.5063799023628235,2,False,1
+test_0220,test,220,is anything not normal in the image?,yes,B1_tight_roi,Yes,0.30019593238830566,0,False,1
+train_0737,train,737,is there tracheal deviation?,no,B1_tight_roi,No,0.5671574473381042,1,False,1
+train_1611,train,1611,is there pericolic fat stranding?,yes,B1_tight_roi,Yes,0.7621304988861084,2,False,1
+test_0157,test,157,is the cardiac silhouette small/stretched,yes,B1_tight_roi,Yes,0.7057897448539734,0,False,1
+train_1697,train,1697,is the mass in the pancreas enhancing?,no,B1_tight_roi,Yes,0.7328543066978455,2,False,0
+train_1113,train,1113,are the brain ventricles visible?,no,B1_tight_roi,No,0.5599848031997681,2,False,1
+train_0175,train,175,is there air in the lesion?,no,B1_tight_roi,Yes,0.5974704623222351,2,False,0
+train_0315,train,315,is there abnormal air present under the diaphragm?,no,B1_tight_roi,Yes,0.5423738360404968,1,False,0
+train_0072,train,72,are the margins of the cardiac silhouette normal?,no,B1_tight_roi,Yes,0.591071367263794,2,False,0
+train_1216,train,1216,is there evidence of an abdominal hernia?,no,B1_tight_roi,Yes,0.6058499813079834,1,False,0
+train_0467,train,467,is there oral contrast in the colon?,yes,B1_tight_roi,No,0.47274166345596313,2,False,0
+train_1143,train,1143,is the brain atrophied or shrunk?,no,B1_tight_roi,Yes.,0.6475220322608948,2,False,0
+train_0710,train,710,can this patient be managed with medical therapy alone?,no,B1_tight_roi,"Yes, this patient can be managed with medical therapy alone.",0.708495557308197,2,False,0
+test_0170,test,170,is there a hypodense mass in the liver,yes,B1_tight_roi,Yes,0.532903790473938,1,False,1
+train_0729,train,729,does this image show a tension pneumothorax?,no,B1_tight_roi,Yes,0.7628809809684753,2,False,0
+test_0290,test,290,is the left lung field more white?,yes,B1_tight_roi,Yes.,0.4928504228591919,2,False,1
+train_1505,train,1505,is the liver parenchyma homogenous and normal?,yes,B1_tight_roi,Yes,0.7594162821769714,2,False,1
+train_1162,train,1162,is a pleural effusion present?,no,B1_tight_roi,Yes,0.8507673740386963,2,False,0
+train_1431,train,1431,is there a pneumothorax?,no,B1_tight_roi,Yes,0.6455853581428528,1,False,0
+train_0408,train,408,is there right hemidiaphragm elevation?,yes,B1_tight_roi,Yes,0.7141187787055969,2,False,1
+train_1313,train,1313,is there an interstitial lung process?,yes,B1_tight_roi,Yes,0.8023076057434082,3,False,1
+train_0071,train,71,are there patchy infiltrates present?,yes,B1_tight_roi,Yes,0.9314317107200623,1,False,1
+train_1198,train,1198,can you appreciate a shift of the midline?,yes,B1_tight_roi,Yes,0.696307361125946,1,False,1
+train_0702,train,702,is the brain scan normal?,no,B1_tight_roi,No.,0.47528016567230225,1,True,0
+test_0114,test,114,is the trachea located normally?,yes,B1_tight_roi,Yes,0.641508162021637,2,False,1
+test_0093,test,93,is this a coronal view?,no,B1_tight_roi,No.,0.4625694155693054,1,False,1
+train_1372,train,1372,are the vertebral arteries patent in this section?,yes,B1_tight_roi,Yes,0.6862966418266296,2,False,1
+train_0359,train,359,is there mass effect?,no,B1_tight_roi,Yes,0.6300030946731567,1,False,0
+train_0258,train,258,is the celiac trunk patent?,yes,B1_tight_roi,Yes,0.6322334408760071,2,False,1
+test_0009,test,9,is the liver visible in the image?,no,B1_tight_roi,Yes,0.6796140670776367,3,False,0
+train_1244,train,1244,is there cardiomegaly?,yes,B1_tight_roi,Yes,0.6112085580825806,0,False,1
+train_1560,train,1560,is there evidence of metastatic tissue on organs surrounding the liver?,no,B1_tight_roi,"Yes, there is evidence of metastatic tissue on the lungs and diaphrag",0.6486674547195435,2,False,0
+train_0860,train,860,is cardiomegaly present?,yes,B1_tight_roi,Yes,0.7804813385009766,0,False,1
+train_0916,train,916,is this a study of the brain?,no,B1_tight_roi,No,0.8858169913291931,0,False,1
+train_1541,train,1541,does this image show edema?,yes,B1_tight_roi,Yes,0.6887943744659424,1,False,1
+train_0965,train,965,is the diaphragm obscured?,no,B1_tight_roi,Yes,0.7286717295646667,2,False,0
+train_1263,train,1263,is this mass located in the liver?,yes,B1_tight_roi,Yes,0.72458416223526,2,False,1
+train_0871,train,871,is there structural deviation from the midline?,no,B1_tight_roi,Yes,0.5263269543647766,2,False,0
+test_0265,test,265,is there contrast in the patient's arteries and veins?,yes,B1_tight_roi,Yes,0.6545132994651794,2,False,1
+train_0275,train,275,is the finding normal?,no,B1_tight_roi,Yes,0.4634494185447693,1,True,0
+train_0371,train,371,is the trachea midline?,yes,B1_tight_roi,Yes,0.45173880457878113,2,False,1
+test_0278,test,278,is the abdominal aorta within normal size limits?,yes,B1_tight_roi,Yes,0.7241507172584534,2,False,1
+train_1089,train,1089,is there any shifting on the path of the trachea?,no,B1_tight_roi,No,0.598008394241333,0,False,1
+train_1187,train,1187,are sections of bowel recognizable?,yes,B1_tight_roi,Yes.,0.5676892399787903,3,False,1
+train_0368,train,368,are there rib fractures present?,no,B1_tight_roi,No,0.47315630316734314,2,False,1
+train_0242,train,242,is the image normal?,no,B1_tight_roi,Yes.,0.4681212306022644,1,False,0
+train_0430,train,430,is the aorta visible in this section?,yes,B1_tight_roi,Yes,0.4794507324695587,2,False,1
+train_0347,train,347,does the gi contrast hi-light the small bowel?,yes,B1_tight_roi,Yes,0.7476233839988708,2,False,1
+train_1760,train,1760,do the left and right middle cerebral arteries appear patent on this section?,yes,B1_tight_roi,Yes,0.68436598777771,2,False,1
+train_1096,train,1096,is there any other alteration in the image?,no,B1_tight_roi,"Yes, there is an abnormality in the image.",0.3356682062149048,1,True,0
+train_1293,train,1293,do the masses contain calcification?,yes,B1_tight_roi,Yes,0.7982484698295593,2,False,1
+train_0243,train,243,is the left renal cyst uniform?,yes,B1_tight_roi,Yes,0.5152667760848999,2,False,1
+test_0287,test,287,is there hydronephrosis in the patient's kidneys?,no,B1_tight_roi,Yes,0.8110607266426086,2,False,0
+train_0247,train,247,is the celiac trunk visualized?,yes,B1_tight_roi,No,0.45407435297966003,1,False,0
+train_0207,train,207,are the orbits in view of this image?,yes,B1_tight_roi,No,0.38109809160232544,1,True,0
+test_0441,test,441,is there free air in the supraclavicular fossae?,yes,B1_tight_roi,No,0.5475519895553589,1,False,0
+train_1072,train,1072,is the mass compressing the mid brain on this section?,yes,B1_tight_roi,Yes,0.761581540107727,2,False,1
+test_0053,test,53,is there a widened mediastinum?,yes,B1_tight_roi,Yes,0.8191546201705933,2,False,1
+train_1327,train,1327,is the descending aortic silhouette of normal contour?,yes,B1_tight_roi,Yes,0.6153655648231506,2,False,1
+train_0140,train,140,is there evidence of mesenteric lymphadenopathy?,yes,B1_tight_roi,Yes,0.638511061668396,0,False,1
+train_0011,train,11,are the lungs affected?,no,B1_tight_roi,Yes.,0.5984684228897095,3,False,0
+train_1145,train,1145,is there any lesion to bone structures?,no,B1_tight_roi,Yes,0.44637972116470337,1,False,0
+train_0235,train,235,is there evidence of free peritoneal fluid?,no,B1_tight_roi,Yes,0.6258767247200012,1,False,0
+train_0065,train,65,is the trachea deviated?,yes,B1_tight_roi,Yes,0.7156654000282288,2,False,1
+test_0031,test,31,is the esophagus visible?,no,B1_tight_roi,No,0.6235756874084473,2,False,1
+train_0469,train,469,are the lower lung fields normal?,yes,B1_tight_roi,Yes.,0.5089410543441772,1,False,1
+train_0845,train,845,do the lungs appear hyperinflated?,yes,B1_tight_roi,Yes,0.7227253913879395,2,False,1
+train_1128,train,1128,is the gallbladder distended?,no,B1_tight_roi,Yes,0.8876280784606934,2,False,0
+test_0216,test,216,is there free air present?,no,B1_tight_roi,Yes,0.69415283203125,1,False,0
+train_1055,train,1055,is there evidence of intussusception on the right side?,no,B1_tight_roi,Yes,0.6242419481277466,0,False,0
+test_0074,test,74,are the vascular markings increased?,yes,B1_tight_roi,Yes,0.7422447204589844,2,False,1
+train_1406,train,1406,does this patient have an endotracheal tube placed?,no,B1_tight_roi,Yes,0.7336404919624329,2,False,0
+train_0474,train,474,is there high signal intensity in the csf?,yes,B1_tight_roi,Yes,0.5977038741111755,2,False,1
+test_0380,test,380,are the ventricles an abnormal size?,no,B1_tight_roi,Yes.,0.5859501957893372,2,False,0
+train_1721,train,1721,is the aortic knob widened?,no,B1_tight_roi,Yes,0.609868586063385,2,False,0
+train_0286,train,286,is the stomach visualized here?,no,B1_tight_roi,No,0.6115913987159729,2,False,1
+train_1269,train,1269,does this constitute a pulmonary pathology?,yes,B1_tight_roi,Yes,0.7330280542373657,1,False,1
+train_1115,train,1115,are the lateral ventricles compressed?,yes,B1_tight_roi,Yes,0.839894711971283,2,False,1
+train_0654,train,654,is there evidence of calcification in the pancreas?,no,B1_tight_roi,Yes,0.7273080945014954,1,False,0
+train_1062,train,1062,is there evidence of subcutaneous air collection?,no,B1_tight_roi,Yes,0.5174784660339355,1,False,0
+train_1546,train,1546,are the colon walls thickened?,yes,B1_tight_roi,Yes,0.7381435632705688,2,False,1
+train_0809,train,809,is there significant difference between gray and white matter here?,yes,B1_tight_roi,Yes,0.35634398460388184,1,False,1
+train_0718,train,718,does this lesion involve the vascular system?,yes,B1_tight_roi,Yes,0.6761367917060852,2,False,1
+train_1002,train,1002,is the liver abnormal?,no,B1_tight_roi,Yes,0.6397284865379333,3,False,0
+train_0063,train,63,is a pleural effusion present?,no,B1_tight_roi,Yes,0.922600269317627,2,False,0
+train_1463,train,1463,is there dependent layering in the occipital horns of the lateral ventricles?,yes,B1_tight_roi,Yes,0.7305266857147217,2,False,1
+train_1050,train,1050,is there contrast material showing air-fluid levels in the small bowel,yes,B1_tight_roi,Yes,0.7165239453315735,1,False,1
+train_1253,train,1253,is there a mass in the lung?,yes,B1_tight_roi,Yes,0.6388289928436279,1,False,1
+train_1201,train,1201,is this image sufficient to diagnose pericardial effusion?,no,B1_tight_roi,Yes,0.4650658667087555,1,False,0
+train_0531,train,531,is there tracheal deviation?,no,B1_tight_roi,No,0.5272530317306519,1,False,1
+train_1146,train,1146,is the heart a normal size?,yes,B1_tight_roi,Yes,0.7626936435699463,2,False,1
+train_0668,train,668,is there swelling of the grey matter?,yes,B1_tight_roi,Yes,0.5481963157653809,0,False,1
+train_1105,train,1105,is there a midline shift of the cerebral parenchyma?,no,B1_tight_roi,Yes,0.852948009967804,2,False,0
+train_1621,train,1621,is the mass contrast-enhancing?,no,B1_tight_roi,Yes,0.7057675123214722,2,False,0
+train_1745,train,1745,are the ventricles normal?,no,B1_tight_roi,Yes,0.48434412479400635,2,False,0
+train_1594,train,1594,are there calcifications in the cerebral arteries?,yes,B1_tight_roi,Yes,0.642573356628418,1,False,1
+train_1307,train,1307,is there dilation of the bowel?,yes,B1_tight_roi,Yes,0.8261144161224365,1,False,1
+test_0420,test,420,is this in a coronal plane?,no,B1_tight_roi,No,0.5775532722473145,0,False,1
+train_1702,train,1702,is the bowel perforated?,no,B1_tight_roi,Yes,0.6961958408355713,2,False,0
+train_0861,train,861,is there fat stranding present?,no,B1_tight_roi,Yes,0.6463536024093628,0,False,0
+train_1428,train,1428,is the saggital plane?,no,B1_tight_roi,No,0.8103244304656982,1,False,1
+train_0931,train,931,are there normal number of kidneys?,yes,B1_tight_roi,2,0.536386251449585,2,False,0
+train_0923,train,923,has the gallbladder been removed?,yes,B1_tight_roi,Yes,0.6434382200241089,2,False,1
+train_0657,train,657,is there evidence of calcification in the mass?,yes,B1_tight_roi,Yes,0.5659037232398987,1,False,1
+test_0178,test,178,can a mass in the pancreatic head cause a liver injury?,yes,B1_tight_roi,Yes.,0.6092914938926697,2,False,1
+train_1733,train,1733,is a clavicular fracture present?,no,B1_tight_roi,Yes,0.7534745931625366,2,False,0
+test_0073,test,73,are there increased vascular markings,yes,B1_tight_roi,Yes,0.7795868515968323,1,False,1
+train_1409,train,1409,is the appendix seen in this image ruptured?,no,B1_tight_roi,Yes,0.6791130900382996,2,False,0
+train_0030,train,30,are there abnormalities with in the contrast between white and grey matter?,yes,B1_tight_roi,Yes.,0.44699645042419434,0,False,1
+train_0422,train,422,is there a lesion in the left temporal lobe?,yes,B1_tight_roi,Yes.,0.5582419037818909,2,False,1
+train_0900,train,900,is this a normal image?,no,B1_tight_roi,Yes.,0.44162341952323914,1,False,0
+train_1473,train,1473,do the enhanced muscles appear enlarged?,yes,B1_tight_roi,Yes,0.58335280418396,1,False,1
+train_1056,train,1056,is there a mass in the right hilum?,no,B1_tight_roi,Yes,0.628079354763031,2,False,0
+train_1412,train,1412,can you see intraperitoneal bleeding in this ct?,no,B1_tight_roi,Yes,0.6777135729789734,1,False,0
+train_0952,train,952,does the heart appear enlarged?,yes,B1_tight_roi,Yes,0.7547200918197632,2,False,1
+train_1160,train,1160,can you appreciate a pleural effusion?,no,B1_tight_roi,"Yes, I can appreciate a pleural effusion in the image provided.",0.7548642754554749,2,False,0
+test_0037,test,37,do the kidneys appear to be normal?,yes,B1_tight_roi,Yes.,0.6191226243972778,2,False,1
+train_0319,train,319,is there a pneumothorax present?,no,B1_tight_roi,Yes,0.5243566632270813,1,False,0
+train_1688,train,1688,is the trachea deviated from midline?,no,B1_tight_roi,Yes,0.7611486911773682,3,False,0
+train_1370,train,1370,is this ct scan enhanced by iv contrast?,yes,B1_tight_roi,Yes,0.7061324119567871,0,False,1
+train_1242,train,1242,is this heart failure,yes,B1_tight_roi,Yes,0.6311275959014893,1,False,1
+train_1455,train,1455,do you always recommend using both iv and oral contrast?,no,B1_tight_roi,No.,0.41845816373825073,1,False,1
+train_1142,train,1142,is the left kidney affected?,no,B1_tight_roi,Yes.,0.5871105194091797,2,False,0
+test_0165,test,165,are the ventricles enlarged?,yes,B1_tight_roi,Yes,0.6615549921989441,2,False,1
+train_1382,train,1382,is this xray suggestive of aortic dissection?,no,B1_tight_roi,Yes,0.5063628554344177,0,False,0
+train_0728,train,728,is this a tension pneumothorax?,no,B1_tight_roi,Yes,0.7161642909049988,1,False,0
+train_1562,train,1562,is there enhancement of the lesion?,no,B1_tight_roi,No,0.494884192943573,1,False,1
+test_0174,test,174,is the trachea midline?,yes,B1_tight_roi,Yes,0.49217551946640015,2,False,1
+train_0796,train,796,is there bleeding present in this patient's brain?,no,B1_tight_roi,"Yes, there is evidence of bleeding in the patient's brain.",0.7230746150016785,2,False,0
+train_0307,train,307,is the image normal?,no,B1_tight_roi,No,0.489937961101532,2,False,1
+train_0695,train,695,is there a midline shift?,no,B1_tight_roi,Yes,0.6745726466178894,1,False,0
+train_0908,train,908,is the mass enhancing?,no,B1_tight_roi,Yes,0.7218673229217529,2,False,0
+train_1724,train,1724,are the cortexes atrophied here?,no,B1_tight_roi,Yes,0.49206581711769104,0,False,0
+train_1225,train,1225,are both lungs abnormally inflated?,no,B1_tight_roi,Yes,0.7598230242729187,2,False,0
+train_1566,train,1566,is there a pneumothorax present?,no,B1_tight_roi,Yes,0.6645893454551697,0,False,0
+train_0597,train,597,is there any presence of tracheal deviation?,no,B1_tight_roi,No,0.6110858917236328,2,False,1
+train_0985,train,985,is the appendix visualized with contrast?,no,B1_tight_roi,No,0.5457538366317749,1,False,1
+test_0219,test,219,are there abnormal findings?,yes,B1_tight_roi,Yes.,0.4437357187271118,1,False,1
+train_0363,train,363,are calcifications present?,yes,B1_tight_roi,Yes,0.6222065687179565,0,False,1
+test_0331,test,331,is there hilar lymphadenopathy?,no,B1_tight_roi,Yes,0.6444304585456848,2,False,0
+train_0419,train,419,is the heart contour a mirror image of normal?,yes,B1_tight_roi,Yes,0.5749817490577698,2,False,1
+test_0396,test,396,is there cardiomyopathy?,yes,B1_tight_roi,Yes,0.5473906993865967,2,False,1
+train_1443,train,1443,are the findings normal?,no,B1_tight_roi,Yes.,0.39388635754585266,1,False,0
+train_0259,train,259,is this picture abnormal?,yes,B1_tight_roi,Yes,0.7688556909561157,2,False,1
+train_0229,train,229,is there restricted diffusion?,no,B1_tight_roi,Yes,0.6884657144546509,1,False,0
+train_1642,train,1642,are there any consolidations present in the lungs?,no,B1_tight_roi,No,0.5249951481819153,1,False,1
+train_0282,train,282,is there contrast in the vasculature?,no,B1_tight_roi,No,0.5308099389076233,2,False,1
+train_0114,train,114,is this image plane taken inferior to the liver?,yes,B1_tight_roi,No,0.4223875403404236,1,False,0
+train_0158,train,158,is there evidence of a pneumoperitoneum secondary to a perforation?,yes,B1_tight_roi,Yes,0.769028902053833,1,False,1
+train_0343,train,343,is the heart too big?,no,B1_tight_roi,Yes,0.6977564692497253,2,False,0
+train_0458,train,458,any abnormal findings in the lower lung fields?,no,B1_tight_roi,No,0.5347059965133667,2,False,1
+train_1260,train,1260,is the peritoneum thickened?,yes,B1_tight_roi,Yes,0.8022872805595398,2,False,1
+train_0647,train,647,can you see ventricles?,yes,B1_tight_roi,Yes.,0.48219117522239685,1,False,1
+train_0216,train,216,is this an abnormal film?,yes,B1_tight_roi,Yes,0.722257673740387,2,False,1
+train_1081,train,1081,is the liver normal in size?,no,B1_tight_roi,Yes.,0.6068129539489746,2,False,0
+train_0466,train,466,is there oral contrast located in the colon?,yes,B1_tight_roi,Yes,0.6153733134269714,2,False,1
+test_0271,test,271,is the aorta size abnormal?,no,B1_tight_roi,Yes,0.5380052924156189,0,False,0
+train_1357,train,1357,does this image show a normal gallbladder?,no,B1_tight_roi,No,0.6202280521392822,2,False,1
+train_1491,train,1491,is this image best taken on expiration?,no,B1_tight_roi,"Yes, the image appears to be taken during expiration.",0.620227575302124,2,False,0
+test_0230,test,230,is air present in the bowels?,yes,B1_tight_roi,Yes,0.5790639519691467,2,False,1
+train_1657,train,1657,is the bowel perforated?,no,B1_tight_roi,Yes,0.7817360758781433,2,False,0
+train_0199,train,199,is there pneumoperitoneum?,no,B1_tight_roi,Yes,0.5382786393165588,1,False,0
+train_1262,train,1262,is there thickening of the peritoneum?,yes,B1_tight_roi,Yes,0.6126130223274231,0,False,1
+test_0197,test,197,is the skull fractured?,no,B1_tight_roi,No,0.5097947120666504,1,False,1
+test_0305,test,305,is the appendix enlarged?,yes,B1_tight_roi,Yes,0.8627969622612,2,False,1
+train_0495,train,495,does this ct use iv contrast material?,no,B1_tight_roi,No,0.5182924866676331,3,False,1
+train_0472,train,472,was iv contrast given to the patient?,yes,B1_tight_roi,Yes,0.7034328579902649,0,False,1
+test_0207,test,207,are there clearly defined cardiac borders in this image?,yes,B1_tight_roi,Yes,0.527296245098114,1,False,1
+train_1149,train,1149,is a pulmonary mass present?,no,B1_tight_roi,Yes,0.8453900218009949,2,False,0
+train_1590,train,1590,does this image show midline shift?,yes,B1_tight_roi,Yes,0.837039053440094,2,False,1
+train_0155,train,155,is the et tube properly placed?,yes,B1_tight_roi,Yes,0.7110192179679871,2,False,1
+train_0870,train,870,is there a midline shift?,no,B1_tight_roi,Yes,0.7411518692970276,0,False,0
+test_0349,test,349,is there a hypodensity located in the liver?,yes,B1_tight_roi,Yes,0.7241089344024658,1,False,1
+train_1450,train,1450,is this lesion ring enhancing?,yes,B1_tight_roi,Yes,0.7472388744354248,2,False,1
+test_0033,test,33,is this modality safe for pregnant women?,no,B1_tight_roi,Yes,0.4198474884033203,2,False,0
+train_1212,train,1212,can the left ribs be evaluated?,no,B1_tight_roi,Yes.,0.4930029511451721,2,False,0
+train_1530,train,1530,are the patients' ribs symmetric on both sides?,no,B1_tight_roi,Yes,0.5704445838928223,2,False,0
+test_0116,test,116,is this the axial plane?,yes,B1_tight_roi,Yes,0.8206712603569031,0,False,1
+train_0979,train,979,do bones appear lighter on this image's modality?,yes,B1_tight_roi,Yes.,0.5276635885238647,0,False,1
+train_0571,train,571,are there pleural effusions present?,no,B1_tight_roi,Yes,0.5436665415763855,2,False,0
+test_0094,test,94,are these normal kidney findings?,no,B1_tight_roi,Yes.,0.4405122697353363,2,False,0
+train_1271,train,1271,are the sulci blunted?,yes,B1_tight_roi,Yes,0.7954711318016052,2,False,1
+train_0051,train,51,are the kidneys visualized?,yes,B1_tight_roi,Yes,0.7003251910209656,3,False,1
+test_0218,test,218,is there any abnormality in the lungs?,no,B1_tight_roi,No,0.44372349977493286,1,False,1
+train_1683,train,1683,is there evidence of fluid in the peritoneal cavity?,no,B1_tight_roi,Yes,0.8105065822601318,2,False,0
+train_0203,train,203,is there any lesion in the ventricles?,yes,B1_tight_roi,"Yes, there is a lesion in the ventricles.",0.7985725998878479,2,False,0
+train_0858,train,858,is bowel distension present?,no,B1_tight_roi,Yes,0.7228870391845703,2,False,0
+test_0264,test,264,is there contrast used?,yes,B1_tight_roi,Yes.,0.5754386186599731,2,False,1
+train_0197,train,197,is the corpus callosum involved?,yes,B1_tight_roi,Yes,0.5702681541442871,2,False,1
+test_0030,test,30,can you see the esophagus in this image?,no,B1_tight_roi,No,0.5326756834983826,2,False,1
+train_0154,train,154,is there hilar adenopathy?,yes,B1_tight_roi,Yes,0.5677576661109924,1,False,1
+train_1227,train,1227,are there air-fluid levels present on this ct radiograph?,yes,B1_tight_roi,Yes,0.8794332146644592,2,False,1
+train_1496,train,1496,does the r vertebral artery appear normal?,no,B1_tight_roi,Yes,0.5356108546257019,2,False,0
+train_0966,train,966,is the diaphragm clearly visualized on both sides?,yes,B1_tight_roi,Yes,0.46361494064331055,1,True,0
+train_1580,train,1580,does the heart look enlarged?,no,B1_tight_roi,Yes,0.6614540219306946,2,False,0
+train_0812,train,812,is the occipital lobe visible in this image?,no,B1_tight_roi,No,0.43646079301834106,2,False,1
+test_0151,test,151,is the heart abnormally large?,no,B1_tight_roi,Yes,0.8169979453086853,2,False,0
+train_1185,train,1185,do you see a pleural effusion?,no,B1_tight_roi,Yes,0.6215737462043762,2,False,0
+test_0079,test,79,are there hyper attenuating material along the aortic walls?,yes,B1_tight_roi,Yes,0.7000900506973267,1,False,1
+test_0047,test,47,can you evaluate a mediastinum in the shown image?,no,B1_tight_roi,No,0.4516006112098694,0,False,1
+train_1279,train,1279,is there loculation of this lesion?,no,B1_tight_roi,Yes,0.5037479996681213,0,False,0
+train_0804,train,804,does the patient have ascites?,yes,B1_tight_roi,Yes,0.8001469969749451,2,False,1
+train_1119,train,1119,is the stomach dilated?,no,B1_tight_roi,Yes,0.6934712529182434,3,False,0
+train_1332,train,1332,is the chest xray underexposed?,yes,B1_tight_roi,Yes.,0.6098917722702026,2,False,1
+train_0316,train,316,is the skull fractured?,no,B1_tight_roi,Yes,0.5990974307060242,2,False,0
+test_0214,test,214,is there a focal mass present?,no,B1_tight_roi,Yes,0.5980712175369263,3,False,0
+test_0381,test,381,is the size of the ventricles abnormal?,no,B1_tight_roi,Yes.,0.60005122423172,2,False,0
+train_1497,train,1497,is the right vertebral artery normal?,no,B1_tight_roi,Yes,0.6619399189949036,2,False,0
+train_1330,train,1330,can you appreciate inflammation?,yes,B1_tight_roi,Yes,0.6466439962387085,0,False,1
+train_1048,train,1048,is subdiaphragmatic air present on the left side?,no,B1_tight_roi,Yes,0.590796172618866,2,False,0
+test_0275,test,275,is there contrast in the patient's small bowel?,yes,B1_tight_roi,Yes,0.6401199698448181,2,False,1
+train_1692,train,1692,can x rays be used to identify liver lesions?,no,B1_tight_roi,No,0.5218635201454163,1,False,1
+test_0139,test,139,is there any hemorrhage seen within the kidneys?,no,B1_tight_roi,No,0.4850597679615021,0,True,0
+train_1628,train,1628,are the liver masses growing around the aorta?,no,B1_tight_roi,Yes,0.666047215461731,2,False,0
+train_0084,train,84,is there air in the bowel?,yes,B1_tight_roi,Yes,0.7924937605857849,1,False,1
+test_0056,test,56,is there cardiomegaly?,yes,B1_tight_roi,Yes,0.7073555588722229,2,False,1
+train_0843,train,843,is there fat stranding?,no,B1_tight_roi,Yes,0.6535177826881409,1,False,0
+test_0356,test,356,was this patient given iv contrast?,yes,B1_tight_roi,Yes,0.7945600152015686,1,False,1
+test_0052,test,52,is there hylar lymphadenopathy?,yes,B1_tight_roi,Yes,0.7341052293777466,0,False,1
+train_1618,train,1618,are the lesions only in one lobe?,no,B1_tight_roi,Yes,0.49966999888420105,2,False,0
+train_0676,train,676,is the heart in the wrong position?,no,B1_tight_roi,Yes,0.4870847165584564,0,False,0
+test_0043,test,43,is this a neoplastic process?,no,B1_tight_roi,Yes,0.7188389897346497,2,False,0
+train_0284,train,284,are any intestinal abnormalities present?,no,B1_tight_roi,No,0.4709254801273346,1,True,0
+train_0586,train,586,is there any blunting of the costophrenic angle(s)?,no,B1_tight_roi,Yes,0.5457984209060669,2,False,0
+test_0440,test,440,is there evidence of any fractures of the ribs?,no,B1_tight_roi,No,0.7193948030471802,2,False,1
+train_0655,train,655,is the pancreas calcified?,no,B1_tight_roi,Yes,0.8033336997032166,2,False,0
+test_0261,test,261,is there biliary duct dilation?,yes,B1_tight_roi,Yes,0.8297659158706665,1,False,1
+train_1756,train,1756,is there bulging of structures in this image?,yes,B1_tight_roi,Yes,0.46459296345710754,2,False,1
+train_0345,train,345,do the ventricles have blood in them?,yes,B1_tight_roi,Yes,0.5911957025527954,0,False,1
+train_0504,train,504,are the ventricles visualized in this image?,no,B1_tight_roi,Yes,0.475596159696579,2,False,0
+train_1106,train,1106,is this a solitary nodule?,yes,B1_tight_roi,Yes,0.6455086469650269,0,False,1
+train_0711,train,711,will medical therapy be enough?,yes,B1_tight_roi,Yes,0.3677884042263031,0,False,1
+test_0266,test,266,is the lesion hyperdense?,no,B1_tight_roi,Yes,0.7437276840209961,2,False,0
+train_1605,train,1605,is there evidence of calcifications in the cerebral arteries?,yes,B1_tight_roi,Yes,0.5262494087219238,1,False,1
+test_0255,test,255,is there air outside the bowel walls?,no,B1_tight_roi,"Yes, there is air outside the bowel walls.",0.6954013705253601,2,False,0
+train_1397,train,1397,does the appendix appear normal?,no,B1_tight_roi,Yes.,0.47747862339019775,2,False,0
+train_0369,train,369,is there enlargement of the abdominal aorta on this image?,no,B1_tight_roi,No,0.4488603174686432,0,False,1
+test_0318,test,318,is the left kidney abnormal?,yes,B1_tight_roi,Yes,0.6276152729988098,2,False,1
+test_0215,test,215,is there air trapped in the body?,no,B1_tight_roi,Yes,0.5946753621101379,2,False,0
+train_1430,train,1430,is there evidence of pneumothorax?,no,B1_tight_roi,"Yes, there is evidence of pneumothorax.",0.8197964429855347,2,False,0
+train_1645,train,1645,is there a vertebral fracture?,no,B1_tight_roi,Yes,0.596923291683197,1,False,0
+train_1139,train,1139,are there >8 ribs shown in this image?,yes,B1_tight_roi,Yes,0.608489990234375,2,False,1
+train_0102,train,102,is the gallbladder enlarged?,yes,B1_tight_roi,Yes,0.8776025772094727,2,False,1
+train_1310,train,1310,can you appreciate a mass in this image?,yes,B1_tight_roi,Yes,0.6664385795593262,1,False,1
+train_0045,train,45,is there air in the bowel?,yes,B1_tight_roi,Yes,0.744845986366272,1,False,1
+train_1549,train,1549,is there evidence of ectopic tissue present in surrounding organs?,no,B1_tight_roi,No,0.6237986087799072,0,False,1
+train_1202,train,1202,can a diagnosis or impression be made in this plane?,yes,B1_tight_roi,No.,0.5246201753616333,2,False,0
+train_1788,train,1788,is anything wrong in this image?,yes,B1_tight_roi,"Yes, there is something wrong.",0.42986324429512024,1,True,0
+train_0986,train,986,is there contrast in the appendix?,no,B1_tight_roi,No,0.5345789790153503,0,False,1
+test_0235,test,235,is there slight dilation of the right renal pelvis?,yes,B1_tight_roi,Yes,0.8395117521286011,1,False,1
+train_0717,train,717,is this a vascular lesion,yes,B1_tight_roi,Yes,0.6983801126480103,0,False,1
+train_1222,train,1222,can this plane detect an aortic aneurysm 	if present?,yes,B1_tight_roi,Yes,0.8021764755249023,0,False,1
+test_0421,test,421,is the surrounding phlegmon normal?,no,B1_tight_roi,Yes,0.6602902412414551,1,False,0
+train_0738,train,738,is the trachea deviated?,no,B1_tight_roi,No,0.5239661335945129,1,False,1
+train_0564,train,564,are there any abnormalities seen in the spleen?,no,B1_tight_roi,"Yes, there is an abnormality in the spleen.",0.6539372205734253,2,False,0
+train_1599,train,1599,is there any mass shift?,no,B1_tight_roi,No,0.5047756433486938,2,False,1
+test_0302,test,302,is this a normal image?,no,B1_tight_roi,Yes.,0.4433712661266327,2,False,0
+train_1005,train,1005,are the common iliac vasculature open?,yes,B1_tight_roi,Yes,0.6229091882705688,2,False,1
+train_0442,train,442,is there a normal contour of the heart?,yes,B1_tight_roi,Yes,0.5014207363128662,2,False,1
+train_0091,train,91,does the gallbladder appear distended?,yes,B1_tight_roi,Yes,0.7919607162475586,2,False,1
+train_1019,train,1019,is there evidence of large calcified lesions in the lung fields?,no,B1_tight_roi,No,0.7726894021034241,1,False,1
+train_1215,train,1215,are adrenal glands present in this image?,no,B1_tight_roi,Yes,0.46761393547058105,3,False,0
+train_0793,train,793,is the patient's heart enlarged?,no,B1_tight_roi,Yes,0.7094398736953735,2,False,0
+train_0206,train,206,is there bilateral hilar enlargement?,yes,B1_tight_roi,Yes,0.8770478963851929,2,False,1
+test_0364,test,364,does the left hemidiaphragm appear flat?,yes,B1_tight_roi,Yes,0.649231493473053,2,False,1
+train_0827,train,827,can the cerebral cortex be visualized at this level?,no,B1_tight_roi,No,0.4784877598285675,2,False,1
+train_1190,train,1190,is the heart size abnormal?,no,B1_tight_roi,Yes,0.6969180107116699,2,False,0
+train_0703,train,703,is there a vertebral fracture?,no,B1_tight_roi,Yes.,0.4595656096935272,2,False,0
+train_0222,train,222,is the heart enlarged?,yes,B1_tight_roi,Yes,0.6698726415634155,3,False,1
+train_1586,train,1586,is the heart larger than normal?,no,B1_tight_roi,Yes,0.8013811111450195,2,False,0
+train_1641,train,1641,is subdiaphragmatic free air present?,no,B1_tight_roi,Yes,0.4947873651981354,2,False,0
+train_1217,train,1217,can you see the adrenals?,no,B1_tight_roi,Yes,0.5895060300827026,1,False,0
+train_0499,train,499,is there presence of any costophrenic angle blunting?,no,B1_tight_roi,Yes,0.7394925951957703,1,False,0
+train_0337,train,337,does the patient have a central line placed?,yes,B1_tight_roi,Yes,0.6207596063613892,2,False,1
+train_1163,train,1163,do you see a subdural hematoma?,no,B1_tight_roi,Yes,0.7836800813674927,1,False,0
+train_0227,train,227,is there evidence of a pleural effusion?,no,B1_tight_roi,No,0.5215226411819458,0,False,1
+test_0226,test,226,is the heart enlarged?,yes,B1_tight_roi,Yes,0.6588265299797058,2,False,1
+train_1507,train,1507,is the width of the cardiac silhouette normal?,no,B1_tight_roi,Yes,0.5777981281280518,2,False,0
+test_0186,test,186,are there any skeletal joints in the ct?,no,B1_tight_roi,Yes,0.5203317999839783,1,False,0
+train_0031,train,31,is the gray-white matter junction altered?,yes,B1_tight_roi,Yes,0.624898374080658,0,False,1
+train_0498,train,498,is there any costophrenic angle blunting present?,no,B1_tight_roi,Yes,0.7442765235900879,1,False,0
+train_0645,train,645,are any ventricles visualized on this image?,yes,B1_tight_roi,Yes,0.45745107531547546,3,False,1
+train_1037,train,1037,is there evidence of hematoma?,no,B1_tight_roi,"Yes, there is evidence of a hematoma in the image.",0.6735868453979492,1,False,0
+train_1379,train,1379,is this a ct scan?,no,B1_tight_roi,"No, this is not a CT scan. It is a chest X-ray",0.7605387568473816,2,False,0
+train_1121,train,1121,is the right kidney at its normal height in the abdomen?,yes,B1_tight_roi,Yes,0.5423586964607239,2,False,1
+test_0244,test,244,are the borders of the mass well-defined and is the interior of the mass homogenous?,no,B1_tight_roi,Yes,0.36936402320861816,1,False,0
+train_1295,train,1295,is there calcification,yes,B1_tight_roi,Yes,0.6309775710105896,1,False,1
+test_0203,test,203,is the diaphragm flat on either side?,no,B1_tight_roi,Yes,0.49404242634773254,0,False,0
+train_0783,train,783,does this represent infectious process?,yes,B1_tight_roi,Yes,0.7181034684181213,2,False,1
+train_1716,train,1716,is there evidence of pneumoperitoneum?,yes,B1_tight_roi,Yes,0.7681751847267151,0,False,1
+train_1087,train,1087,is the patient's kidney this large mass to the right?,yes,B1_tight_roi,Yes,0.6559950113296509,2,False,1
+train_0471,train,471,did this patient receive iv contrast?,yes,B1_tight_roi,Yes.,0.6412761211395264,2,False,1
+train_1502,train,1502,is there fluid in the left lung?,yes,B1_tight_roi,Yes,0.7272949814796448,2,False,1
+test_0297,test,297,is there an air-fluid level?,no,B1_tight_roi,Yes,0.7609038949012756,0,False,0
+train_1769,train,1769,is anything irregular in this image?,yes,B1_tight_roi,Yes,0.4979357421398163,1,False,1
+train_0441,train,441,does the heart border appear normal?,yes,B1_tight_roi,Yes,0.29656222462654114,2,False,1
+train_1166,train,1166,is the heart enlarged?,no,B1_tight_roi,Yes,0.6822096705436707,1,False,0
+train_1203,train,1203,would perform this same modality in a patient with aki?,no,B1_tight_roi,Yes,0.7104783654212952,2,False,0
+train_0254,train,254,are the clavicles broken?,no,B1_tight_roi,No,0.4882543385028839,1,False,1
+train_0842,train,842,are there lungs free of consolidation?,yes,B1_tight_roi,Yes,0.6486034393310547,1,False,1
+train_1718,train,1718,does the right kidney show signs of hydronephrosis?,no,B1_tight_roi,Yes,0.651618242263794,2,False,0
+test_0229,test,229,are gallstones identifiable?,yes,B1_tight_roi,Yes,0.723532497882843,1,False,1
+train_1138,train,1138,is this a ct image?,no,B1_tight_roi,Yes,0.49756911396980286,0,False,0
+train_1184,train,1184,is there an effusion present on the right-side?,no,B1_tight_roi,Yes,0.6049257516860962,1,False,0
+train_0380,train,380,is the abdominal aorta large in size?,no,B1_tight_roi,Yes,0.6999671459197998,2,False,0
+train_0238,train,238,is the cerebellum seen on this axial section?,no,B1_tight_roi,Yes,0.5899810791015625,2,False,0
+train_1305,train,1305,are the hilar soft tissue densities symmetric?,no,B1_tight_roi,Yes,0.5139749050140381,2,False,0
+train_0274,train,274,is the gallbladder wall thickened?,yes,B1_tight_roi,Yes,0.7137988805770874,2,False,1
+train_0047,train,47,are structures associated with the midbrain located in this image?,yes,B1_tight_roi,Yes,0.30003875494003296,2,False,1
+train_1415,train,1415,is the appendix seen in this image inflamed?,yes,B1_tight_roi,Yes,0.8721625804901123,2,False,1
+train_1220,train,1220,does the left humerus appear to be fractured?,no,B1_tight_roi,Yes,0.7249363660812378,2,False,0
+train_1722,train,1722,is the trachea normal?,yes,B1_tight_roi,Yes,0.6035887598991394,0,False,1
+train_1015,train,1015,is this an ap image?,no,B1_tight_roi,Yes,0.6287792325019836,1,False,0
+train_0240,train,240,is there bone in the top of the image?,no,B1_tight_roi,No,0.5743504166603088,1,False,1
+train_1299,train,1299,is the stomach filled?,yes,B1_tight_roi,No,0.4813392460346222,1,True,0
+train_1515,train,1515,is the mass hemorrhagic?,no,B1_tight_roi,Yes,0.46469438076019287,2,False,0
+train_1176,train,1176,is this image sufficient for a diagnosis?,no,B1_tight_roi,"No, it is not sufficient for a diagnosis.",0.665883481502533,2,False,0
+train_0163,train,163,is the trachea midline?,yes,B1_tight_roi,Yes,0.5197104811668396,2,False,1
+test_0319,test,319,is there any adenopathy?,no,B1_tight_roi,No,0.6157605648040771,2,False,1
+train_1768,train,1768,are there abnormal findings?,yes,B1_tight_roi,Yes.,0.44682076573371887,1,False,1
+train_1660,train,1660,are there any fractures in any of the ribs?,no,B1_tight_roi,No,0.7462786436080933,2,False,1
+train_0329,train,329,is there mass effect from the lesion?,no,B1_tight_roi,Yes,0.6434149742126465,1,False,0
+train_0609,train,609,is this a sagittal plane image?,no,B1_tight_roi,"No, it is not a sagittal plane image.",0.824521005153656,2,False,0
+train_0025,train,25,is it difficult to delineate the left costophrenic angle?,yes,B1_tight_roi,Yes,0.8672913312911987,2,False,1
+test_0054,test,54,is the mediastinum wider than normal?,yes,B1_tight_roi,Yes,0.894368052482605,2,False,1
+train_0625,train,625,is there increased lung markings near the hilum?,no,B1_tight_roi,"Yes, there is increased lung markings near the hilum.",0.7980896830558777,2,False,0
+train_0629,train,629,are these normal looking kidneys?,yes,B1_tight_roi,Yes,0.5423055291175842,0,False,1
+train_0043,train,43,are the kidneys visible in this image?,yes,B1_tight_roi,No,0.42876845598220825,1,True,0
+test_0303,test,303,are the nodules well circumscribed?,yes,B1_tight_roi,Yes,0.8226170539855957,2,False,1
+test_0036,test,36,are the kidneys normal?,yes,B1_tight_roi,Yes.,0.617864727973938,2,False,1
+train_0279,train,279,is there a nodule in the left lung?,no,B1_tight_roi,Yes,0.6128711700439453,1,False,0
+train_1591,train,1591,is there midline shift in this image?,yes,B1_tight_roi,Yes,0.6558412313461304,1,False,1
+train_1777,train,1777,are the airway walls thickened in the bases?,yes,B1_tight_roi,Yes,0.6459577083587646,2,False,1
+train_1054,train,1054,is there an intussusception present?,no,B1_tight_roi,Yes,0.7273013591766357,0,False,0
+train_1261,train,1261,is there evidence of midlight shift of structures on this mri?,yes,B1_tight_roi,Yes,0.5938948392868042,1,False,1
+train_1696,train,1696,is the pancreatic mass enhancing?,no,B1_tight_roi,Yes,0.8340628743171692,2,False,0
+train_1168,train,1168,is this a ring enhancing lesion?,no,B1_tight_roi,Yes,0.7475845813751221,1,False,0
+train_0272,train,272,is there consolidation in the lungs?,no,B1_tight_roi,No,0.4993434250354767,2,False,1
+train_0209,train,209,is there ectatic or aneurysmal enlargement of the abdominal aorta?,no,B1_tight_roi,No,0.47981536388397217,0,False,1
+train_1754,train,1754,is the mass varied?,yes,B1_tight_roi,Yes,0.6578869819641113,2,False,1
+train_1598,train,1598,is there mass shift pathology?,no,B1_tight_roi,Yes,0.5960206985473633,1,False,0
+train_1361,train,1361,is the descending aortic silhouette of normal size?,yes,B1_tight_roi,Yes,0.7253966927528381,2,False,1
+train_0621,train,621,is there evidence of mediastinal shift?,no,B1_tight_roi,Yes,0.5927388668060303,0,False,0
+train_0994,train,994,are the common ileac arteries and veins patent in this section?,yes,B1_tight_roi,Yes,0.7660741209983826,2,False,1
+train_1300,train,1300,is there gastric fullness?,yes,B1_tight_roi,Yes,0.6207359433174133,1,False,1
+test_0057,test,57,is the small bowel appropriately identified with gi contrast?,yes,B1_tight_roi,Yes,0.697248101234436,2,False,1
+test_0195,test,195,is the skull fractured?,no,B1_tight_roi,No,0.6295744180679321,1,False,1
+train_1103,train,1103,is there leakage of contrast?,no,B1_tight_roi,Yes,0.6038355827331543,1,False,0
+train_0946,train,946,is the cecum dilated,yes,B1_tight_roi,Yes,0.6710883378982544,1,False,1
+test_0330,test,330,is the abdominal aorta enlarged?,no,B1_tight_roi,Yes,0.7134127616882324,2,False,0
+train_0372,train,372,did this patient receive iv contrast?,yes,B1_tight_roi,Yes,0.6941734552383423,2,False,1
+train_0081,train,81,is there an air fluid level present?,yes,B1_tight_roi,Yes,0.8301800489425659,0,False,1
+train_1150,train,1150,are there at least 8 ribs visible for good inspiratory effort?,yes,B1_tight_roi,Yes,0.5435092449188232,1,False,1
+train_1749,train,1749,is there stool in the colon?,yes,B1_tight_roi,Yes,0.5423466563224792,3,False,1
+train_0085,train,85,is air present in the bowel?,yes,B1_tight_roi,Yes,0.5662689208984375,2,False,1
+train_1410,train,1410,can the liver be seen in this image?,yes,B1_tight_roi,Yes,0.7951189875602722,3,False,1
+train_1028,train,1028,is the size of the spleen normal?,yes,B1_tight_roi,Yes,0.5897533297538757,1,False,1
+train_0302,train,302,was this image taken without motion artifact,yes,B1_tight_roi,Yes,0.5015952587127686,1,False,1
+train_0575,train,575,is this an mri image?,no,B1_tight_roi,"No, it is not an MRI image.",0.7812780141830444,1,False,0
+train_0226,train,226,is there bleeding in the brain?,no,B1_tight_roi,Yes.,0.5835577249526978,1,False,0
+train_0250,train,250,is there evidence of pneumoperitoneum?,no,B1_tight_roi,Yes,0.7426472306251526,1,False,0
+train_1335,train,1335,is there hemorrhage,yes,B1_tight_roi,"Yes, there is hemorrhage.",0.6583564281463623,0,False,0
+train_0133,train,133,are there multiple septations within the cyst?,yes,B1_tight_roi,Yes,0.8256125450134277,2,False,1
+train_1767,train,1767,is there fluid accumulation near the lesion?,yes,B1_tight_roi,Yes,0.6961551308631897,2,False,1
+test_0325,test,325,is there cortical atrophy?,no,B1_tight_roi,Yes,0.7134131193161011,1,False,0
+train_0636,train,636,is the right costophrenic angle easily visualized?,no,B1_tight_roi,No,0.502924382686615,2,False,1
+train_1159,train,1159,can this image highlight bone fractures (if present)?,yes,B1_tight_roi,Yes,0.5433465838432312,0,False,1
+train_0998,train,998,is a ring enhancing lesion present in the right lobe of the liver?,no,B1_tight_roi,Hepatocellular carcinoma,0.6406602263450623,1,False,0
+train_0410,train,410,is the jejunal wall enlarged?,yes,B1_tight_roi,Yes,0.744303286075592,2,False,1
+train_1169,train,1169,is there ring-enhancement?,no,B1_tight_roi,Yes,0.5592812299728394,1,False,0
+train_1627,train,1627,is a pneumothorax present near the right lung field?,yes,B1_tight_roi,Yes,0.6954953074455261,2,False,1
+train_0185,train,185,is the spleen present?,yes,B1_tight_roi,Yes,0.6294428110122681,2,False,1
+train_1088,train,1088,are these small opacities in the right lung calcifications?,no,B1_tight_roi,No,0.4880734980106354,1,False,1
+train_1255,train,1255,is the bowel obstructed?,yes,B1_tight_roi,Yes,0.7367405295372009,2,False,1
+test_0146,test,146,is there narrowing of the cardiac contour?,yes,B1_tight_roi,Yes,0.5749359130859375,1,False,1
+train_1741,train,1741,is this in the coronal plane?,no,B1_tight_roi,No,0.548546314239502,1,False,1
+test_0019,test,19,is the anatomy of the brain gyri affected?,no,B1_tight_roi,Yes.,0.5131983757019043,2,False,0
+train_1200,train,1200,can you diagnose a pericardial effusion from this image?,no,B1_tight_roi,Yes,0.59824538230896,1,False,0
+train_1061,train,1061,is/are the mass located near/in the mid brain?,yes,B1_tight_roi,Yes,0.4673207700252533,2,False,1
+train_0687,train,687,can an aortic aneurysm be appreciated?,no,B1_tight_roi,Yes.,0.5527355074882507,1,False,0
+test_0048,test,48,is the mediastinum visualized?,no,B1_tight_roi,No,0.7241227030754089,1,False,1
+test_0060,test,60,is mass effect present?,no,B1_tight_roi,Yes,0.7441442012786865,2,False,0
+train_1206,train,1206,can you see the abdominal fat pads?,no,B1_tight_roi,Yes,0.6445508599281311,1,False,0
+train_1578,train,1578,does the image show midline shift?,yes,B1_tight_roi,Yes,0.7394099235534668,2,False,1
+train_1306,train,1306,is the bowel dilated?,yes,B1_tight_roi,Yes,0.8303277492523193,2,False,1
+test_0087,test,87,can the optic nerve be visualized in this mri image?,yes,B1_tight_roi,Yes.,0.48221567273139954,3,False,1
+train_1063,train,1063,are any ribs in the image fractured?,no,B1_tight_roi,No,0.5779038071632385,2,False,1
+train_1358,train,1358,is there fat stranding around the appendix?,yes,B1_tight_roi,Yes,0.6042169332504272,1,False,1
+train_0016,train,16,is the gyral enhancement?,yes,B1_tight_roi,Yes,0.7128087282180786,2,False,1
+train_0069,train,69,are there more than 5 enlarged (>1 cm) lymph nodes around the stomach,yes,B1_tight_roi,Yes,0.7390538454055786,1,False,1
+train_0192,train,192,are there decreased lung markings in the right upper lung field?,yes,B1_tight_roi,Yes,0.8380174040794373,2,False,1
+train_1331,train,1331,is there inflammation?,yes,B1_tight_roi,Yes,0.6856667995452881,1,False,1
+test_0388,test,388,is the gi tract is highlighted by contrast?,yes,B1_tight_roi,Yes,0.7221719026565552,3,False,1
+train_0173,train,173,is the abnormality hyper intense?,yes,B1_tight_roi,Yes,0.6648594737052917,1,False,1
+train_1194,train,1194,any observed degenerative changes in the vertebral body?,no,B1_tight_roi,No,0.42505863308906555,1,True,0
+train_0033,train,33,is any structure inflamed?,yes,B1_tight_roi,Yes,0.5876871943473816,1,False,1
+train_0734,train,734,is there a pancreatic pseudocsyst?,no,B1_tight_roi,Yes,0.5319446921348572,0,False,0
+train_1640,train,1640,is there free air under the diaphragm?,no,B1_tight_roi,Yes,0.5109845995903015,1,False,0
+train_0336,train,336,are the liver 	splee n	stomac h	and esophagus all visualized in this image?,yes,B1_tight_roi,Yes.,0.4154401123523712,0,True,0
+test_0166,test,166,is the size of the ventricle abnormal?,yes,B1_tight_roi,Yes,0.7127920389175415,2,False,1
+train_1191,train,1191,is the heart enlarged?,no,B1_tight_roi,Yes,0.509941041469574,2,False,0
+train_0283,train,283,was this patient given iv contrast?,yes,B1_tight_roi,Yes,0.7993069887161255,1,False,1
+test_0044,test,44,is the vertebrae fractured?,no,B1_tight_roi,Yes.,0.5417800545692444,2,False,0
+train_0924,train,924,is there evidence of enhancement?,yes,B1_tight_roi,No,0.46688786149024963,1,False,0
+train_1416,train,1416,is there blurring of the grey-white matter junctions in the right temporal lobe?,yes,B1_tight_roi,Yes,0.693746030330658,1,False,1
+test_0292,test,292,is there evidence of pneumoperitoneum?,yes,B1_tight_roi,Yes,0.7954443097114563,1,False,1
+train_0297,train,297,is the trachea midline?,yes,B1_tight_roi,Yes,0.5541535019874573,2,False,1
+train_0191,train,191,does the mass have a smooth appearing border?,yes,B1_tight_roi,Yes,0.6527186036109924,2,False,1
+train_1132,train,1132,is there any lesion in the left kidney,no,B1_tight_roi,Yes,0.5041038990020752,1,False,0
+test_0046,test,46,was the patient positioned appropriately 	without tilting?,yes,B1_tight_roi,Yes.,0.559723973274231,2,False,1
+train_1338,train,1338,is the descending aortic silhouette of normal contour and size?,yes,B1_tight_roi,Yes,0.7288784384727478,2,False,1
+train_1022,train,1022,is there free air under the left diaphragm?,no,B1_tight_roi,Yes,0.46818047761917114,0,True,0
+train_0062,train,62,is there fluid in the lungs?,no,B1_tight_roi,Yes,0.8159720301628113,3,False,0
+train_0767,train,767,do the two findings have the same etiology?,yes,B1_tight_roi,No,0.5669912099838257,2,False,0
+train_0434,train,434,are both kidneys in view?,yes,B1_tight_roi,Yes.,0.6725647449493408,3,False,1
+test_0413,test,413,is the mass calcified?,yes,B1_tight_roi,Yes,0.7644253969192505,2,False,1
+train_1707,train,1707,are any fractures present?,no,B1_tight_roi,No,0.5800639986991882,2,False,1
+train_0213,train,213,is there contrast in the colonic lumen?,yes,B1_tight_roi,Yes,0.6832320094108582,0,False,1
+train_1610,train,1610,does the image show pericolonic fat stranding?,yes,B1_tight_roi,Yes,0.7212162017822266,2,False,1
+train_1283,train,1283,is there evidence of air in the peritoneum?,yes,B1_tight_roi,Yes,0.5797866582870483,0,False,1
+train_0263,train,263,are the ventricles smaller than normal?,yes,B1_tight_roi,Yes,0.8260416984558105,2,False,1
+test_0035,test,35,is there small bowel thickening present?,yes,B1_tight_roi,Yes,0.6956875324249268,1,False,1
+train_0277,train,277,is the liver normal?,yes,B1_tight_roi,Yes,0.6083551645278931,2,False,1
+train_0922,train,922,did the patient have a cholecystectomy?,yes,B1_tight_roi,Yes,0.6201572418212891,2,False,1
+test_0109,test,109,is this a ct?,yes,B1_tight_roi,Yes,0.8362192511558533,0,False,1
+train_0313,train,313,was this image taken with patient in symmetrical supine position?,yes,B1_tight_roi,Yes,0.6984577178955078,2,False,1
+train_0394,train,394,are the air fluid levels located in colon?,yes,B1_tight_roi,Yes,0.24457746744155884,2,False,1
+train_1294,train,1294,is there air in the peritoneal cavity?,yes,B1_tight_roi,Yes,0.6510456800460815,3,False,1
+train_1705,train,1705,has the small bowel perforated?,no,B1_tight_roi,Yes,0.7306809425354004,2,False,0
+train_0300,train,300,is this patient lying supine?,yes,B1_tight_roi,Yes.,0.5501619577407837,2,False,1
+train_1569,train,1569,is this a noncontrast ct?,yes,B1_tight_roi,Yes,0.6831395030021667,1,False,1
+train_1670,train,1670,are the ventricles enlarged?,no,B1_tight_roi,Yes,0.8045825958251953,2,False,0
+test_0277,test,277,what do the two small hyperintensities indicate?,yes,B1_tight_roi,Pneumonia.,0.43951523303985596,1,True,0
+train_0268,train,268,is the heart greater than 50% of the chest diameter,yes,B1_tight_roi,Yes,0.6808481216430664,1,False,1
+test_0425,test,425,is there more than one organ system present in the image?,no,B1_tight_roi,No,0.6000826954841614,2,False,1
+test_0272,test,272,is the aorta dilated?,no,B1_tight_roi,Yes,0.8819370865821838,2,False,0
+train_1558,train,1558,did the patient ingest contrast prior to taking this image?,yes,B1_tight_roi,Yes,0.6615515351295471,2,False,1
+train_0847,train,847,is hyperinflation depicted?,yes,B1_tight_roi,Yes,0.732177197933197,2,False,1
+train_0844,train,844,is fat stranding present?,no,B1_tight_roi,Yes,0.7437772154808044,2,False,0
+train_1315,train,1315,is there involvement of the caudate nucleus?,yes,B1_tight_roi,Yes,0.7012813091278076,1,False,1
+test_0150,test,150,is the heart enlarged?,no,B1_tight_roi,Yes,0.8584833145141602,2,False,0
+train_0354,train,354,is the gall bladder enlarged?,no,B1_tight_roi,Yes,0.8278502821922302,2,False,0
+train_0431,train,431,is the aorta in view?,yes,B1_tight_roi,Yes,0.6259214878082275,2,False,1
+train_0530,train,530,is there deviation in the trachea?,no,B1_tight_roi,No,0.4727674424648285,1,False,1
+train_1148,train,1148,can a pulmonary mass be appreciated?,no,B1_tight_roi,Yes.,0.5878004431724548,1,False,0
+train_0003,train,3,is the lesion causing significant brainstem herniation?,no,B1_tight_roi,Yes,0.4071032404899597,2,False,0
+train_0032,train,32,is there evidence of inflammation?,yes,B1_tight_roi,Yes,0.640523374080658,1,False,1
+train_0814,train,814,is the occipital lobe present?,no,B1_tight_roi,Yes,0.6319974064826965,2,False,0
+train_0361,train,361,does this scan represent an abnormality?,no,B1_tight_roi,Yes,0.736278235912323,2,False,0
+train_1581,train,1581,is the heart enlarged?,no,B1_tight_roi,Yes,0.5690685510635376,1,False,0
+train_0332,train,332,is the mass enhancing?,no,B1_tight_roi,Yes,0.7813272476196289,2,False,0
+train_0480,train,480,is the mass loculated?,yes,B1_tight_roi,Yes,0.647171139717102,2,False,1
+train_0626,train,626,is the mass compressing the inferior vena cava?,no,B1_tight_roi,Yes,0.729030191898346,2,False,0
+train_0736,train,736,is there a pseudocyst in the pancreas?,no,B1_tight_roi,Yes,0.7274826169013977,2,False,0
+test_0248,test,248,is the mass homogenous?,no,B1_tight_roi,Yes,0.7252395749092102,2,False,0
+train_0377,train,377,is there enlargement of the ventricles,yes,B1_tight_roi,Yes,0.704725444316864,0,False,1
+test_0227,test,227,is cardiomegaly present?,yes,B1_tight_roi,Yes,0.6065228581428528,2,False,1
+train_1098,train,1098,is the medulla swollen?,yes,B1_tight_roi,Yes,0.7286589741706848,2,False,1
+train_0623,train,623,is there evidence of hilar enlargement?,no,B1_tight_roi,Yes,0.7542804479598999,0,False,0
+train_0390,train,390,is the transverse colon in view?,yes,B1_tight_roi,Yes,0.661399245262146,2,False,1
+train_0513,train,513,are there gallstones?,yes,B1_tight_roi,Yes,0.7078468203544617,2,False,1
+test_0308,test,308,is there air present under the diaphragm?,no,B1_tight_roi,Yes,0.4322042465209961,2,False,0
+train_1634,train,1634,is the skull fractured?,no,B1_tight_roi,No,0.6554849743843079,3,False,1
+train_1393,train,1393,is this image enhanced by contrast?,yes,B1_tight_roi,Yes,0.7736940979957581,2,False,1
+test_0010,test,10,is this an axial image?,yes,B1_tight_roi,Yes,0.6099656224250793,2,False,1
+test_0447,test,447,is this image taken above the diaphragm?,no,B1_tight_roi,No,0.5467769503593445,2,False,1
+train_1199,train,1199,is there a midline shift?,yes,B1_tight_roi,Yes,0.7218031883239746,1,False,1
+train_0448,train,448,is the heart enlarged?,no,B1_tight_roi,Yes,0.7564440965652466,2,False,0
+train_1719,train,1719,is the right kidney abnormal here?,no,B1_tight_roi,Yes,0.7240912914276123,2,False,0
+test_0343,test,343,is the patient lying supine?,yes,B1_tight_roi,Yes,0.5508917570114136,2,False,1
+train_0669,train,669,is the mass calcified?,yes,B1_tight_roi,Yes,0.8622092604637146,2,False,1

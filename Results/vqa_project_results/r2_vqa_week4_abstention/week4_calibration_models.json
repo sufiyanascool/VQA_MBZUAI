@@ -1,0 +1,96 @@
+[
+    {
+        "model_config_key": "A",
+        "model_name": "Raw Confidence Only",
+        "features": [
+            "original_confidence"
+        ],
+        "preprocessing_scaler_mean": [
+            0.8943750000000001
+        ],
+        "preprocessing_scaler_scale": [
+            0.05361538375317293
+        ],
+        "model_coefficients": [
+            [
+                0.1915128742828211
+            ]
+        ],
+        "model_intercept": [
+            -0.19402606138220285
+        ],
+        "model_class": "LogisticRegression"
+    },
+    {
+        "model_config_key": "B",
+        "model_name": "Evidence Features Only (Transformed)",
+        "features": [
+            "sufficiency_log",
+            "necessity_log",
+            "stability",
+            "specificity"
+        ],
+        "preprocessing_scaler_mean": [
+            0.5299282901176614,
+            0.3075095504750888,
+            0.3053860587842057,
+            0.01648778775236089
+        ],
+        "preprocessing_scaler_scale": [
+            1.8636816362633324,
+            1.6270735739456554,
+            0.4151788274776044,
+            0.2331800168092497
+        ],
+        "model_coefficients": [
+            [
+                0.1341455819783904,
+                0.3714964820482226,
+                1.2620063438101077,
+                -0.23293324902558873
+            ]
+        ],
+        "model_intercept": [
+            -0.14411724619873362
+        ],
+        "model_class": "LogisticRegression"
+    },
+    {
+        "model_config_key": "C",
+        "model_name": "Combined Features (Transformed)",
+        "features": [
+            "original_confidence",
+            "sufficiency_log",
+            "necessity_log",
+            "stability",
+            "specificity"
+        ],
+        "preprocessing_scaler_mean": [
+            0.8943750000000001,
+            0.5299282901176614,
+            0.3075095504750888,
+            0.3053860587842057,
+            0.01648778775236089
+        ],
+        "preprocessing_scaler_scale": [
+            0.05361538375317293,
+            1.8636816362633324,
+            1.6270735739456554,
+            0.4151788274776044,
+            0.2331800168092497
+        ],
+        "model_coefficients": [
+            [
+                -0.06385852786735739,
+                0.13398198542019063,
+                0.36972601434501134,
+                1.2770788824651427,
+                -0.23241729934612135
+            ]
+        ],
+        "model_intercept": [
+            -0.14502454542089652
+        ],
+        "model_class": "LogisticRegression"
+    }
+]

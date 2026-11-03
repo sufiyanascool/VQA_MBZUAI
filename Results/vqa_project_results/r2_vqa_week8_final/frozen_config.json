@@ -1,0 +1,47 @@
+{
+  "frozen_on": "2026-10-14",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "dev_set": "week8_dev_set.csv (500 train questions)",
+  "prompt_suffix": "Answer concisely.",
+  "crop_padding": 0.15,
+  "jitter_fraction": 0.1,
+  "jitter_seed": "sample_index",
+  "scoring": "strict: yes/no by first word, open by exact or whole word match",
+  "answer_rule": "direct",
+  "views_needed_at_test_time": [
+    "direct",
+    "box",
+    "crop",
+    "jitter",
+    "random",
+    "masked"
+  ],
+  "abstention": {
+    "signal": "logistic regression (confidence + all checks)",
+    "threshold": 0.3075087432059357,
+    "dev_coverage_target": 0.8,
+    "abstain_if_below": true,
+    "features": [
+      "final_conf",
+      "suff",
+      "stab",
+      "nec",
+      "jit_agree",
+      "rand_agree"
+    ],
+    "coef": [
+      2.344950437249287,
+      0.565247627014325,
+      0.6757353159369863,
+      -0.26728591462849355,
+      -0.12807827231327482,
+      0.7912440449079767
+    ],
+    "intercept": -2.682663217143959
+  },
+  "dev_evidence": {
+    "direct_accuracy": 0.52,
+    "chosen_rule_accuracy": 0.52,
+    "confidence_auroc": 0.6734455128205129
+  }
+}

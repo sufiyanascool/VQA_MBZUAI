@@ -1,0 +1,16 @@
+{
+    "Total samples": 100,
+    "Valid VLM boxes": 100,
+    "Valid Grounding DINO boxes": 100,
+    "Both boxes valid": 100,
+    "Mean IoU": 0.42807490056384473,
+    "Median IoU": 0.2897011744210167,
+    "IoU >= 0.25 count": 54,
+    "IoU >= 0.50 count": 41,
+    "VLM JSON success rate": "100.00%",
+    "VLM BBox valid rate": "100.00%",
+    "Grounding DINO BBox valid rate": "100.00%",
+    "Both BBoxes valid rate": "100.00%",
+    "IoU >= 0.25 rate": "54.00%",
+    "IoU >= 0.50 rate": "41.00%"
+}

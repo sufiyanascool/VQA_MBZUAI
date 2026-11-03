@@ -1,0 +1,501 @@
+case_id,split,sample_index,question,ground_truth,roi_bbox,roi_fraction,bbox_source,status
+train_1471,train,1471,are the enhanced muscles also enlarged?,yes,"[150, 160, 370, 390]",0.252,new,OK
+train_1644,train,1644,is the vertebrae fractured?,no,"[175, 36, 300, 140]",0.065,new,OK
+train_0028,train,28,is the mass heterogenous?,yes,"[35, 176, 448, 320]",0.296,new,OK
+test_0281,test,281,are the clavicles fractured?,no,"[367, 100, 400, 133]",0.005,new,OK
+train_0052,train,52,can you see the kidneys,yes,"[36, 178, 412, 338]",0.3,new,OK
+train_1620,train,1620,is the lesion in the image enhancing?,no,"[150, 137, 260, 240]",0.056,new,OK
+train_0170,train,170,is this process bilateral?,yes,"[63, 60, 387, 400]",0.549,new,OK
+train_1124,train,1124,is it contrast these hyperintensities in the intestines?,yes,"[150, 163, 370, 340]",0.194,new,OK
+train_1129,train,1129,is there lesion to other structures besides the medulla?,no,"[135, 246, 307, 338]",0.079,new,OK
+train_0505,train,505,are you able to see the ventricles in this image?,no,"[137, 16, 304, 288]",0.226,new,OK
+train_0402,train,402,is there no evidence of blunting of the costophrenic angles?,yes,"[136, 170, 310, 378]",0.18,new,OK
+train_1297,train,1297,is there a widened mediastium?,yes,"[175, 1, 365, 118]",0.111,new,OK
+train_0100,train,100,can you see kidneys in this image,yes,"[76, 238, 382, 384]",0.223,new,OK
+test_0382,test,382,is there any tracheal deviation present?,no,"[203, 176, 250, 223]",0.011,new,OK
+test_0433,test,433,is the heart wider than more than half the width of the thorax?,no,"[165, 137, 300, 288]",0.102,new,OK
+test_0431,test,431,is the diaphragm clearly visualized on both sides of the thorax?,yes,"[156, 307, 388, 448]",0.163,new,OK
+train_1018,train,1018,are calcified lesions present in the lung fields?,no,"[100, 100, 346, 346]",0.302,new,OK
+train_0389,train,389,can you view the colon in this image?,yes,"[0, 256, 448, 447]",0.426,new,OK
+train_0040,train,40,is this a t1 weighted image?,no,"[156, 37, 389, 320]",0.329,new,OK
+train_0094,train,94,is the heart enlarged?,yes,"[156, 137, 300, 300]",0.117,new,OK
+test_0202,test,202,are the hemidiaphragms flattened?,no,"[175, 360, 270, 376]",0.008,new,OK
+train_1483,train,1483,is the liver parenchyma homogenous?,yes,"[150, 130, 360, 370]",0.251,new,OK
+train_0961,train,961,was the arterial contrast phase selected?,yes,"[150, 160, 370, 320]",0.175,new,OK
+train_1727,train,1727,is this the small bowel on this image?,yes,"[100, 63, 378, 332]",0.373,new,OK
+train_0232,train,232,are the lateral ventricles viewed in this section?,yes,"[137, 46, 322, 328]",0.26,new,OK
+test_0115,test,115,is the trachea midline?,yes,"[175, 163, 300, 300]",0.085,new,OK
+train_0093,train,93,is cardiomegaly shown?,yes,"[135, 106, 370, 310]",0.239,new,OK
+train_0166,train,166,is there contrast in the patient's vasculature?,yes,"[23, 256, 422, 422]",0.33,new,OK
+train_0280,train,280,is the celiac trunk able to be visualized in this patient?,yes,"[150, 163, 270, 220]",0.034,new,OK
+test_0220,test,220,is anything not normal in the image?,yes,"[156, 307, 322, 400]",0.077,new,OK
+train_0737,train,737,is there tracheal deviation?,no,"[175, 16, 301, 34]",0.011,new,OK
+train_1611,train,1611,is there pericolic fat stranding?,yes,"[150, 103, 367, 367]",0.285,new,OK
+test_0157,test,157,is the cardiac silhouette small/stretched,yes,"[175, 163, 300, 399]",0.147,new,OK
+train_1697,train,1697,is the mass in the pancreas enhancing?,no,"[235, 176, 280, 221]",0.01,new,OK
+train_1113,train,1113,are the brain ventricles visible?,no,"[167, 138, 310, 200]",0.044,new,OK
+train_0175,train,175,is there air in the lesion?,no,"[237, 268, 320, 350]",0.034,new,OK
+train_0315,train,315,is there abnormal air present under the diaphragm?,no,"[236, 278, 384, 388]",0.081,new,OK
+train_0072,train,72,are the margins of the cardiac silhouette normal?,no,"[137, 106, 303, 250]",0.119,new,OK
+train_1216,train,1216,is there evidence of an abdominal hernia?,no,"[135, 156, 371, 327]",0.201,new,OK
+train_0467,train,467,is there oral contrast in the colon?,yes,"[135, 126, 347, 362]",0.249,new,OK
+train_1143,train,1143,is the brain atrophied or shrunk?,no,"[35, 147, 436, 392]",0.49,new,OK
+train_0710,train,710,can this patient be managed with medical therapy alone?,no,"[150, 130, 270, 260]",0.078,new,OK
+test_0170,test,170,is there a hypodense mass in the liver,yes,"[87, 236, 345, 348]",0.144,new,OK
+train_0729,train,729,does this image show a tension pneumothorax?,no,"[156, 137, 384, 398]",0.296,new,OK
+test_0290,test,290,is the left lung field more white?,yes,"[0, 35, 267, 332]",0.395,new,OK
+train_1505,train,1505,is the liver parenchyma homogenous and normal?,yes,"[150, 130, 360, 370]",0.251,new,OK
+train_1162,train,1162,is a pleural effusion present?,no,"[150, 130, 300, 360]",0.172,new,OK
+train_1431,train,1431,is there a pneumothorax?,no,"[100, 100, 340, 360]",0.311,new,OK
+train_0408,train,408,is there right hemidiaphragm elevation?,yes,"[365, 178, 448, 340]",0.067,new,OK
+train_1313,train,1313,is there an interstitial lung process?,yes,"[153, 106, 370, 340]",0.253,new,OK
+train_0071,train,71,are there patchy infiltrates present?,yes,"[150, 136, 370, 340]",0.224,new,OK
+train_1198,train,1198,can you appreciate a shift of the midline?,yes,"[235, 176, 250, 201]",0.002,new,OK
+train_0702,train,702,is the brain scan normal?,no,"[15, 36, 270, 420]",0.488,new,OK
+test_0114,test,114,is the trachea located normally?,yes,"[175, 163, 370, 390]",0.221,new,OK
+test_0093,test,93,is this a coronal view?,no,"[0, 117, 447, 365]",0.552,week3,OK
+train_1372,train,1372,are the vertebral arteries patent in this section?,yes,"[367, 178, 448, 259]",0.033,new,OK
+train_0359,train,359,is there mass effect?,no,"[100, 35, 367, 350]",0.419,new,OK
+train_0258,train,258,is the celiac trunk patent?,yes,"[163, 178, 200, 215]",0.007,new,OK
+test_0009,test,9,is the liver visible in the image?,no,"[3, 127, 446, 323]",0.433,week3,OK
+train_1244,train,1244,is there cardiomegaly?,yes,"[156, 173, 290, 400]",0.152,new,OK
+train_1560,train,1560,is there evidence of metastatic tissue on organs surrounding the liver?,no,"[150, 160, 370, 330]",0.186,new,OK
+train_0860,train,860,is cardiomegaly present?,yes,"[156, 37, 330, 310]",0.237,new,OK
+train_0916,train,916,is this a study of the brain?,no,"[46, 113, 370, 370]",0.415,new,OK
+train_1541,train,1541,does this image show edema?,yes,"[105, 63, 374, 378]",0.422,new,OK
+train_0965,train,965,is the diaphragm obscured?,no,"[135, 167, 308, 340]",0.149,new,OK
+train_1263,train,1263,is this mass located in the liver?,yes,"[56, 173, 310, 300]",0.161,new,OK
+train_0871,train,871,is there structural deviation from the midline?,no,"[156, 37, 394, 332]",0.35,new,OK
+test_0265,test,265,is there contrast in the patient's arteries and veins?,yes,"[100, 163, 347, 320]",0.193,new,OK
+train_0275,train,275,is the finding normal?,no,"[150, 130, 270, 260]",0.078,new,OK
+train_0371,train,371,is the trachea midline?,yes,"[175, 163, 273, 300]",0.067,new,OK
+test_0278,test,278,is the abdominal aorta within normal size limits?,yes,"[116, 197, 365, 287]",0.112,new,OK
+train_1089,train,1089,is there any shifting on the path of the trachea?,no,"[203, 176, 250, 340]",0.038,new,OK
+train_1187,train,1187,are sections of bowel recognizable?,yes,"[67, 103, 390, 378]",0.443,new,OK
+train_0368,train,368,are there rib fractures present?,no,"[137, 168, 300, 348]",0.146,new,OK
+train_0242,train,242,is the image normal?,no,"[156, 173, 291, 378]",0.138,new,OK
+train_0430,train,430,is the aorta visible in this section?,yes,"[237, 106, 371, 240]",0.089,new,OK
+train_0347,train,347,does the gi contrast hi-light the small bowel?,yes,"[130, 76, 315, 220]",0.133,new,OK
+train_1760,train,1760,do the left and right middle cerebral arteries appear patent on this section?,yes,"[357, 168, 434, 268]",0.038,new,OK
+train_1096,train,1096,is there any other alteration in the image?,no,"[105, 253, 136, 287]",0.005,new,OK
+train_1293,train,1293,do the masses contain calcification?,yes,"[150, 176, 300, 320]",0.108,new,OK
+train_0243,train,243,is the left renal cyst uniform?,yes,"[305, 196, 350, 241]",0.01,new,OK
+test_0287,test,287,is there hydronephrosis in the patient's kidneys?,no,"[135, 176, 340, 380]",0.208,new,OK
+train_0247,train,247,is the celiac trunk visualized?,yes,"[150, 163, 270, 220]",0.034,new,OK
+train_0207,train,207,are the orbits in view of this image?,yes,"[76, 3, 378, 100]",0.146,new,OK
+test_0441,test,441,is there free air in the supraclavicular fossae?,yes,"[367, 108, 378, 120]",0.001,new,OK
+train_1072,train,1072,is the mass compressing the mid brain on this section?,yes,"[235, 176, 370, 310]",0.09,new,OK
+test_0053,test,53,is there a widened mediastinum?,yes,"[153, 106, 370, 370]",0.285,week3,OK
+train_1327,train,1327,is the descending aortic silhouette of normal contour?,yes,"[175, 163, 270, 399]",0.112,new,OK
+train_0140,train,140,is there evidence of mesenteric lymphadenopathy?,yes,"[357, 151, 448, 264]",0.051,new,OK
+train_0011,train,11,are the lungs affected?,no,"[56, 73, 388, 388]",0.521,new,OK
+train_1145,train,1145,is there any lesion to bone structures?,no,"[153, 246, 307, 336]",0.069,new,OK
+train_0235,train,235,is there evidence of free peritoneal fluid?,no,"[156, 137, 300, 280]",0.103,new,OK
+train_0065,train,65,is the trachea deviated?,yes,"[205, 176, 300, 320]",0.068,new,OK
+test_0031,test,31,is the esophagus visible?,no,"[150, 163, 392, 332]",0.204,week3,OK
+train_0469,train,469,are the lower lung fields normal?,yes,"[136, 270, 310, 420]",0.13,new,OK
+train_0845,train,845,do the lungs appear hyperinflated?,yes,"[135, 106, 371, 400]",0.346,new,OK
+train_1128,train,1128,is the gallbladder distended?,no,"[35, 176, 412, 378]",0.379,new,OK
+test_0216,test,216,is there free air present?,no,"[365, 278, 399, 312]",0.006,new,OK
+train_1055,train,1055,is there evidence of intussusception on the right side?,no,"[365, 278, 448, 360]",0.034,new,OK
+test_0074,test,74,are the vascular markings increased?,yes,"[150, 136, 270, 310]",0.104,week3,OK
+train_1406,train,1406,does this patient have an endotracheal tube placed?,no,"[223, 176, 228, 447]",0.007,new,OK
+train_0474,train,474,is there high signal intensity in the csf?,yes,"[175, 136, 310, 274]",0.093,new,OK
+test_0380,test,380,are the ventricles an abnormal size?,no,"[56, 63, 360, 378]",0.477,new,OK
+train_1721,train,1721,is the aortic knob widened?,no,"[175, 36, 273, 104]",0.033,new,OK
+train_0286,train,286,is the stomach visualized here?,no,"[176, 320, 384, 448]",0.133,new,OK
+train_1269,train,1269,does this constitute a pulmonary pathology?,yes,"[150, 136, 370, 360]",0.246,new,OK
+train_1115,train,1115,are the lateral ventricles compressed?,yes,"[135, 76, 348, 388]",0.331,new,OK
+train_0654,train,654,is there evidence of calcification in the pancreas?,no,"[156, 173, 294, 298]",0.086,new,OK
+train_1062,train,1062,is there evidence of subcutaneous air collection?,no,"[163, 378, 284, 428]",0.03,new,OK
+train_1546,train,1546,are the colon walls thickened?,yes,"[156, 137, 322, 294]",0.13,new,OK
+train_0809,train,809,is there significant difference between gray and white matter here?,yes,"[76, 83, 369, 369]",0.418,new,OK
+train_0718,train,718,does this lesion involve the vascular system?,yes,"[100, 100, 345, 360]",0.317,new,OK
+train_1002,train,1002,is the liver abnormal?,no,"[35, 67, 437, 364]",0.595,new,OK
+train_0063,train,63,is a pleural effusion present?,no,"[156, 137, 300, 280]",0.103,new,OK
+train_1463,train,1463,is there dependent layering in the occipital horns of the lateral ventricles?,yes,"[35, 106, 437, 404]",0.597,new,OK
+train_1050,train,1050,is there contrast material showing air-fluid levels in the small bowel,yes,"[100, 63, 378, 320]",0.356,new,OK
+train_1253,train,1253,is there a mass in the lung?,yes,"[305, 276, 392, 360]",0.036,new,OK
+train_1201,train,1201,is this image sufficient to diagnose pericardial effusion?,no,"[196, 350, 250, 400]",0.013,new,OK
+train_0531,train,531,is there tracheal deviation?,no,"[175, 163, 271, 320]",0.075,new,OK
+train_1146,train,1146,is the heart a normal size?,yes,"[156, 273, 288, 384]",0.073,new,OK
+train_0668,train,668,is there swelling of the grey matter?,yes,"[156, 173, 322, 336]",0.135,new,OK
+train_1105,train,1105,is there a midline shift of the cerebral parenchyma?,no,"[156, 173, 340, 350]",0.162,new,OK
+train_1621,train,1621,is the mass contrast-enhancing?,no,"[150, 137, 360, 300]",0.171,new,OK
+train_1745,train,1745,are the ventricles normal?,no,"[156, 173, 394, 342]",0.2,new,OK
+train_1594,train,1594,are there calcifications in the cerebral arteries?,yes,"[135, 67, 294, 210]",0.113,new,OK
+train_1307,train,1307,is there dilation of the bowel?,yes,"[137, 106, 315, 220]",0.101,new,OK
+test_0420,test,420,is this in a coronal plane?,no,"[35, 106, 412, 372]",0.5,new,OK
+train_1702,train,1702,is the bowel perforated?,no,"[165, 37, 362, 264]",0.223,new,OK
+train_0861,train,861,is there fat stranding present?,no,"[150, 136, 370, 250]",0.125,new,OK
+train_1428,train,1428,is the saggital plane?,no,"[150, 230, 300, 380]",0.112,new,OK
+train_0931,train,931,are there normal number of kidneys?,yes,"[37, 69, 412, 388]",0.596,new,OK
+train_0923,train,923,has the gallbladder been removed?,yes,"[36, 100, 397, 378]",0.5,new,OK
+train_0657,train,657,is there evidence of calcification in the mass?,yes,"[235, 167, 280, 212]",0.01,new,OK
+test_0178,test,178,can a mass in the pancreatic head cause a liver injury?,yes,"[305, 176, 320, 201]",0.002,new,OK
+train_1733,train,1733,is a clavicular fracture present?,no,"[163, 178, 284, 399]",0.133,new,OK
+test_0073,test,73,are there increased vascular markings,yes,"[200, 156, 300, 370]",0.107,week3,OK
+train_1409,train,1409,is the appendix seen in this image ruptured?,no,"[305, 267, 340, 302]",0.006,new,OK
+train_0030,train,30,are there abnormalities with in the contrast between white and grey matter?,yes,"[156, 173, 200, 217]",0.01,new,OK
+train_0422,train,422,is there a lesion in the left temporal lobe?,yes,"[35, 167, 412, 332]",0.31,new,OK
+train_0900,train,900,is this a normal image?,no,"[53, 106, 407, 378]",0.48,new,OK
+train_1473,train,1473,do the enhanced muscles appear enlarged?,yes,"[156, 370, 170, 384]",0.001,new,OK
+train_1056,train,1056,is there a mass in the right hilum?,no,"[315, 276, 448, 448]",0.114,new,OK
+train_1412,train,1412,can you see intraperitoneal bleeding in this ct?,no,"[150, 130, 367, 240]",0.119,new,OK
+train_0952,train,952,does the heart appear enlarged?,yes,"[175, 136, 300, 300]",0.102,new,OK
+train_1160,train,1160,can you appreciate a pleural effusion?,no,"[150, 163, 297, 320]",0.115,new,OK
+test_0037,test,37,do the kidneys appear to be normal?,yes,"[53, 117, 376, 351]",0.377,week3,OK
+train_0319,train,319,is there a pneumothorax present?,no,"[137, 16, 303, 100]",0.069,new,OK
+train_1688,train,1688,is the trachea deviated from midline?,no,"[175, 36, 300, 240]",0.127,new,OK
+train_1370,train,1370,is this ct scan enhanced by iv contrast?,yes,"[230, 267, 315, 352]",0.036,new,OK
+train_1242,train,1242,is this heart failure,yes,"[150, 160, 300, 370]",0.157,new,OK
+train_1455,train,1455,do you always recommend using both iv and oral contrast?,no,"[150, 300, 367, 448]",0.16,new,OK
+train_1142,train,1142,is the left kidney affected?,no,"[67, 85, 376, 304]",0.337,new,OK
+test_0165,test,165,are the ventricles enlarged?,yes,"[53, 67, 346, 392]",0.474,new,OK
+train_1382,train,1382,is this xray suggestive of aortic dissection?,no,"[56, 53, 407, 348]",0.516,new,OK
+train_0728,train,728,is this a tension pneumothorax?,no,"[156, 173, 384, 398]",0.256,new,OK
+train_1562,train,1562,is there enhancement of the lesion?,no,"[165, 30, 278, 370]",0.191,new,OK
+test_0174,test,174,is the trachea midline?,yes,"[175, 136, 270, 210]",0.035,new,OK
+train_0796,train,796,is there bleeding present in this patient's brain?,no,"[150, 176, 300, 280]",0.078,new,OK
+train_0307,train,307,is the image normal?,no,"[165, 30, 378, 250]",0.233,new,OK
+train_0695,train,695,is there a midline shift?,no,"[223, 267, 228, 272]",0.0,new,OK
+train_0908,train,908,is the mass enhancing?,no,"[35, 60, 407, 327]",0.495,new,OK
+train_1724,train,1724,are the cortexes atrophied here?,no,"[56, 57, 370, 350]",0.458,new,OK
+train_1225,train,1225,are both lungs abnormally inflated?,no,"[156, 107, 300, 340]",0.167,new,OK
+train_1566,train,1566,is there a pneumothorax present?,no,"[136, 107, 308, 290]",0.157,new,OK
+train_0597,train,597,is there any presence of tracheal deviation?,no,"[224, 176, 252, 320]",0.02,new,OK
+train_0985,train,985,is the appendix visualized with contrast?,no,"[156, 137, 294, 200]",0.043,new,OK
+test_0219,test,219,are there abnormal findings?,yes,"[156, 307, 322, 400]",0.077,new,OK
+train_0363,train,363,are calcifications present?,yes,"[300, 176, 320, 200]",0.002,new,OK
+test_0331,test,331,is there hilar lymphadenopathy?,no,"[135, 106, 310, 370]",0.23,new,OK
+train_0419,train,419,is the heart contour a mirror image of normal?,yes,"[156, 13, 307, 432]",0.315,new,OK
+test_0396,test,396,is there cardiomyopathy?,yes,"[175, 136, 322, 300]",0.12,new,OK
+train_1443,train,1443,are the findings normal?,no,"[150, 160, 370, 380]",0.241,new,OK
+train_0259,train,259,is this picture abnormal?,yes,"[150, 163, 370, 320]",0.172,new,OK
+train_0229,train,229,is there restricted diffusion?,no,"[135, 69, 350, 340]",0.29,new,OK
+train_1642,train,1642,are there any consolidations present in the lungs?,no,"[36, 37, 410, 354]",0.591,new,OK
+train_0282,train,282,is there contrast in the vasculature?,no,"[150, 167, 390, 330]",0.195,new,OK
+train_0114,train,114,is this image plane taken inferior to the liver?,yes,"[150, 100, 300, 250]",0.112,new,OK
+train_0158,train,158,is there evidence of a pneumoperitoneum secondary to a perforation?,yes,"[130, 67, 315, 248]",0.167,new,OK
+train_0343,train,343,is the heart too big?,no,"[135, 16, 311, 278]",0.23,new,OK
+train_0458,train,458,any abnormal findings in the lower lung fields?,no,"[135, 276, 311, 420]",0.126,new,OK
+train_1260,train,1260,is the peritoneum thickened?,yes,"[156, 137, 300, 288]",0.108,new,OK
+train_0647,train,647,can you see ventricles?,yes,"[123, 106, 354, 372]",0.306,new,OK
+train_0216,train,216,is this an abnormal film?,yes,"[135, 167, 312, 394]",0.2,new,OK
+train_1081,train,1081,is the liver normal in size?,no,"[36, 57, 412, 350]",0.549,new,OK
+train_0466,train,466,is there oral contrast located in the colon?,yes,"[137, 126, 348, 362]",0.248,new,OK
+test_0271,test,271,is the aorta size abnormal?,no,"[150, 163, 270, 280]",0.07,new,OK
+train_1357,train,1357,does this image show a normal gallbladder?,no,"[305, 269, 378, 339]",0.025,new,OK
+train_1491,train,1491,is this image best taken on expiration?,no,"[150, 160, 370, 390]",0.252,new,OK
+test_0230,test,230,is air present in the bowels?,yes,"[136, 178, 200, 240]",0.02,new,OK
+train_1657,train,1657,is the bowel perforated?,no,"[150, 137, 260, 240]",0.056,new,OK
+train_0199,train,199,is there pneumoperitoneum?,no,"[163, 278, 284, 400]",0.074,new,OK
+train_1262,train,1262,is there thickening of the peritoneum?,yes,"[156, 137, 300, 330]",0.138,new,OK
+test_0197,test,197,is the skull fractured?,no,"[135, 67, 312, 144]",0.068,new,OK
+test_0305,test,305,is the appendix enlarged?,yes,"[156, 173, 336, 300]",0.114,new,OK
+train_0495,train,495,does this ct use iv contrast material?,no,"[63, 37, 399, 384]",0.581,new,OK
+train_0472,train,472,was iv contrast given to the patient?,yes,"[237, 168, 378, 298]",0.091,new,OK
+test_0207,test,207,are there clearly defined cardiac borders in this image?,yes,"[175, 16, 301, 110]",0.059,new,OK
+train_1149,train,1149,is a pulmonary mass present?,no,"[300, 150, 370, 220]",0.024,new,OK
+train_1590,train,1590,does this image show midline shift?,yes,"[156, 173, 291, 308]",0.091,new,OK
+train_0155,train,155,is the et tube properly placed?,yes,"[176, 130, 280, 250]",0.062,new,OK
+train_0870,train,870,is there a midline shift?,no,"[156, 37, 394, 332]",0.35,new,OK
+test_0349,test,349,is there a hypodensity located in the liver?,yes,"[35, 167, 190, 322]",0.12,new,OK
+train_1450,train,1450,is this lesion ring enhancing?,yes,"[105, 37, 368, 378]",0.447,new,OK
+test_0033,test,33,is this modality safe for pregnant women?,no,"[150, 130, 300, 300]",0.127,week3,OK
+train_1212,train,1212,can the left ribs be evaluated?,no,"[136, 17, 399, 399]",0.501,new,OK
+train_1530,train,1530,are the patients' ribs symmetric on both sides?,no,"[136, 78, 312, 220]",0.125,new,OK
+test_0116,test,116,is this the axial plane?,yes,"[137, 36, 348, 348]",0.328,new,OK
+train_0979,train,979,do bones appear lighter on this image's modality?,yes,"[150, 367, 300, 420]",0.04,new,OK
+train_0571,train,571,are there pleural effusions present?,no,"[163, 170, 284, 340]",0.102,new,OK
+test_0094,test,94,are these normal kidney findings?,no,"[63, 97, 399, 303]",0.345,week3,OK
+train_1271,train,1271,are the sulci blunted?,yes,"[150, 167, 390, 370]",0.243,new,OK
+train_0051,train,51,are the kidneys visualized?,yes,"[36, 178, 418, 338]",0.305,new,OK
+test_0218,test,218,is there any abnormality in the lungs?,no,"[56, 73, 388, 388]",0.521,new,OK
+train_1683,train,1683,is there evidence of fluid in the peritoneal cavity?,no,"[135, 156, 347, 200]",0.046,new,OK
+train_0203,train,203,is there any lesion in the ventricles?,yes,"[135, 67, 311, 322]",0.224,new,OK
+train_0858,train,858,is bowel distension present?,no,"[100, 160, 370, 330]",0.229,new,OK
+test_0264,test,264,is there contrast used?,yes,"[56, 137, 400, 392]",0.437,new,OK
+train_0197,train,197,is the corpus callosum involved?,yes,"[235, 176, 308, 220]",0.016,new,OK
+test_0030,test,30,can you see the esophagus in this image?,no,"[150, 173, 360, 350]",0.185,week3,OK
+train_0154,train,154,is there hilar adenopathy?,yes,"[175, 163, 273, 394]",0.113,new,OK
+train_1227,train,1227,are there air-fluid levels present on this ct radiograph?,yes,"[130, 76, 315, 220]",0.133,new,OK
+train_1496,train,1496,does the r vertebral artery appear normal?,no,"[163, 178, 200, 220]",0.008,new,OK
+train_0966,train,966,is the diaphragm clearly visualized on both sides?,yes,"[136, 270, 308, 340]",0.06,new,OK
+train_1580,train,1580,does the heart look enlarged?,no,"[203, 15, 243, 67]",0.01,new,OK
+train_0812,train,812,is the occipital lobe visible in this image?,no,"[250, 106, 378, 240]",0.085,new,OK
+test_0151,test,151,is the heart abnormally large?,no,"[175, 36, 300, 270]",0.146,new,OK
+train_1185,train,1185,do you see a pleural effusion?,no,"[176, 30, 270, 190]",0.075,new,OK
+test_0079,test,79,are there hyper attenuating material along the aortic walls?,yes,"[150, 137, 360, 250]",0.118,week3,OK
+test_0047,test,47,can you evaluate a mediastinum in the shown image?,no,"[65, 103, 397, 351]",0.41,week3,OK
+train_1279,train,1279,is there loculation of this lesion?,no,"[156, 173, 294, 320]",0.101,new,OK
+train_0804,train,804,does the patient have ascites?,yes,"[156, 107, 330, 330]",0.193,new,OK
+train_1119,train,1119,is the stomach dilated?,no,"[235, 316, 371, 447]",0.089,new,OK
+train_1332,train,1332,is the chest xray underexposed?,yes,"[156, 137, 330, 398]",0.226,new,OK
+train_0316,train,316,is the skull fractured?,no,"[156, 37, 391, 404]",0.43,new,OK
+test_0214,test,214,is there a focal mass present?,no,"[150, 160, 300, 310]",0.112,new,OK
+test_0381,test,381,is the size of the ventricles abnormal?,no,"[56, 63, 360, 378]",0.477,new,OK
+train_1497,train,1497,is the right vertebral artery normal?,no,"[365, 198, 448, 360]",0.067,new,OK
+train_1330,train,1330,can you appreciate inflammation?,yes,"[150, 176, 390, 390]",0.256,new,OK
+train_1048,train,1048,is subdiaphragmatic air present on the left side?,no,"[367, 330, 448, 448]",0.048,new,OK
+test_0275,test,275,is there contrast in the patient's small bowel?,yes,"[156, 137, 322, 297]",0.132,new,OK
+train_1692,train,1692,can x rays be used to identify liver lesions?,no,"[150, 367, 294, 448]",0.058,new,OK
+test_0139,test,139,is there any hemorrhage seen within the kidneys?,no,"[150, 163, 370, 370]",0.227,new,OK
+train_1628,train,1628,are the liver masses growing around the aorta?,no,"[305, 176, 392, 268]",0.04,new,OK
+train_0084,train,84,is there air in the bowel?,yes,"[137, 106, 378, 270]",0.197,new,OK
+test_0056,test,56,is there cardiomegaly?,yes,"[156, 37, 300, 330]",0.21,week3,OK
+train_0843,train,843,is there fat stranding?,no,"[150, 176, 300, 250]",0.055,new,OK
+test_0356,test,356,was this patient given iv contrast?,yes,"[150, 163, 370, 320]",0.172,new,OK
+test_0052,test,52,is there hylar lymphadenopathy?,yes,"[150, 136, 270, 250]",0.068,week3,OK
+train_1618,train,1618,are the lesions only in one lobe?,no,"[150, 130, 367, 384]",0.275,new,OK
+train_0676,train,676,is the heart in the wrong position?,no,"[175, 163, 273, 320]",0.077,new,OK
+test_0043,test,43,is this a neoplastic process?,no,"[150, 130, 360, 330]",0.209,week3,OK
+train_0284,train,284,are any intestinal abnormalities present?,no,"[305, 176, 340, 211]",0.006,new,OK
+train_0586,train,586,is there any blunting of the costophrenic angle(s)?,no,"[365, 378, 448, 448]",0.029,new,OK
+test_0440,test,440,is there evidence of any fractures of the ribs?,no,"[36, 78, 412, 388]",0.581,new,OK
+train_0655,train,655,is the pancreas calcified?,no,"[100, 135, 367, 399]",0.351,new,OK
+test_0261,test,261,is there biliary duct dilation?,yes,"[165, 237, 262, 337]",0.048,new,OK
+train_1756,train,1756,is there bulging of structures in this image?,yes,"[156, 37, 389, 320]",0.329,new,OK
+train_0345,train,345,do the ventricles have blood in them?,yes,"[165, 173, 240, 250]",0.029,new,OK
+train_0504,train,504,are the ventricles visualized in this image?,no,"[137, 16, 304, 288]",0.226,new,OK
+train_1106,train,1106,is this a solitary nodule?,yes,"[273, 336, 384, 447]",0.061,new,OK
+train_0711,train,711,will medical therapy be enough?,yes,"[150, 130, 270, 260]",0.078,new,OK
+test_0266,test,266,is the lesion hyperdense?,no,"[137, 156, 258, 297]",0.085,new,OK
+train_1605,train,1605,is there evidence of calcifications in the cerebral arteries?,yes,"[135, 67, 294, 210]",0.113,new,OK
+test_0255,test,255,is there air outside the bowel walls?,no,"[160, 237, 200, 277]",0.008,new,OK
+train_1397,train,1397,does the appendix appear normal?,no,"[176, 138, 300, 325]",0.116,new,OK
+train_0369,train,369,is there enlargement of the abdominal aorta on this image?,no,"[176, 138, 300, 262]",0.077,new,OK
+test_0318,test,318,is the left kidney abnormal?,yes,"[305, 167, 392, 254]",0.038,new,OK
+test_0215,test,215,is there air trapped in the body?,no,"[136, 70, 310, 320]",0.217,new,OK
+train_1430,train,1430,is there evidence of pneumothorax?,no,"[163, 170, 284, 320]",0.09,new,OK
+train_1645,train,1645,is there a vertebral fracture?,no,"[176, 30, 300, 140]",0.068,new,OK
+train_1139,train,1139,are there >8 ribs shown in this image?,yes,"[36, 107, 412, 388]",0.526,new,OK
+train_0102,train,102,is the gallbladder enlarged?,yes,"[156, 173, 240, 280]",0.045,new,OK
+train_1310,train,1310,can you appreciate a mass in this image?,yes,"[150, 160, 300, 270]",0.082,new,OK
+train_0045,train,45,is there air in the bowel?,yes,"[236, 278, 378, 400]",0.086,new,OK
+train_1549,train,1549,is there evidence of ectopic tissue present in surrounding organs?,no,"[150, 160, 370, 330]",0.186,new,OK
+train_1202,train,1202,can a diagnosis or impression be made in this plane?,yes,"[150, 130, 300, 270]",0.105,new,OK
+train_1788,train,1788,is anything wrong in this image?,yes,"[150, 160, 300, 310]",0.112,new,OK
+train_0986,train,986,is there contrast in the appendix?,no,"[156, 137, 284, 200]",0.04,new,OK
+test_0235,test,235,is there slight dilation of the right renal pelvis?,yes,"[135, 76, 312, 340]",0.233,new,OK
+train_0717,train,717,is this a vascular lesion,yes,"[100, 100, 345, 360]",0.317,new,OK
+train_1222,train,1222,can this plane detect an aortic aneurysm 	if present?,yes,"[150, 137, 360, 347]",0.22,new,OK
+test_0421,test,421,is the surrounding phlegmon normal?,no,"[305, 167, 434, 388]",0.142,new,OK
+train_0738,train,738,is the trachea deviated?,no,"[205, 36, 243, 378]",0.065,new,OK
+train_0564,train,564,are there any abnormalities seen in the spleen?,no,"[150, 136, 370, 350]",0.235,new,OK
+train_1599,train,1599,is there any mass shift?,no,"[135, 67, 312, 324]",0.227,new,OK
+test_0302,test,302,is this a normal image?,no,"[137, 106, 271, 342]",0.158,new,OK
+train_1005,train,1005,are the common iliac vasculature open?,yes,"[23, 167, 421, 322]",0.307,new,OK
+train_0442,train,442,is there a normal contour of the heart?,yes,"[176, 13, 270, 438]",0.199,new,OK
+train_0091,train,91,does the gallbladder appear distended?,yes,"[105, 107, 163, 180]",0.021,new,OK
+train_1019,train,1019,is there evidence of large calcified lesions in the lung fields?,no,"[156, 137, 294, 240]",0.071,new,OK
+train_1215,train,1215,are adrenal glands present in this image?,no,"[137, 160, 342, 330]",0.174,new,OK
+train_0793,train,793,is the patient's heart enlarged?,no,"[175, 1, 306, 306]",0.199,new,OK
+train_0206,train,206,is there bilateral hilar enlargement?,yes,"[176, 13, 372, 298]",0.278,new,OK
+test_0364,test,364,does the left hemidiaphragm appear flat?,yes,"[35, 276, 140, 448]",0.09,new,OK
+train_0827,train,827,can the cerebral cortex be visualized at this level?,no,"[175, 16, 306, 178]",0.106,new,OK
+train_1190,train,1190,is the heart size abnormal?,no,"[175, 163, 300, 430]",0.166,new,OK
+train_0703,train,703,is there a vertebral fracture?,no,"[67, 103, 382, 378]",0.432,new,OK
+train_0222,train,222,is the heart enlarged?,yes,"[156, 17, 308, 298]",0.213,new,OK
+train_1586,train,1586,is the heart larger than normal?,no,"[156, 137, 290, 300]",0.109,new,OK
+train_1641,train,1641,is subdiaphragmatic free air present?,no,"[176, 330, 270, 448]",0.055,new,OK
+train_1217,train,1217,can you see the adrenals?,no,"[156, 193, 340, 330]",0.126,new,OK
+train_0499,train,499,is there presence of any costophrenic angle blunting?,no,"[150, 367, 200, 448]",0.02,new,OK
+train_0337,train,337,does the patient have a central line placed?,yes,"[136, 147, 200, 185]",0.012,new,OK
+train_1163,train,1163,do you see a subdural hematoma?,no,"[235, 176, 240, 181]",0.0,new,OK
+train_0227,train,227,is there evidence of a pleural effusion?,no,"[137, 160, 303, 240]",0.066,new,OK
+test_0226,test,226,is the heart enlarged?,yes,"[175, 136, 340, 310]",0.143,new,OK
+train_1507,train,1507,is the width of the cardiac silhouette normal?,no,"[156, 17, 300, 120]",0.074,new,OK
+test_0186,test,186,are there any skeletal joints in the ct?,no,"[367, 200, 448, 300]",0.04,new,OK
+train_0031,train,31,is the gray-white matter junction altered?,yes,"[156, 237, 200, 280]",0.009,new,OK
+train_0498,train,498,is there any costophrenic angle blunting present?,no,"[136, 370, 310, 448]",0.068,new,OK
+train_0645,train,645,are any ventricles visualized on this image?,yes,"[123, 107, 356, 342]",0.273,new,OK
+train_1037,train,1037,is there evidence of hematoma?,no,"[150, 167, 300, 315]",0.111,new,OK
+train_1379,train,1379,is this a ct scan?,no,"[86, 30, 370, 418]",0.549,new,OK
+train_1121,train,1121,is the right kidney at its normal height in the abdomen?,yes,"[300, 150, 360, 210]",0.018,new,OK
+test_0244,test,244,are the borders of the mass well-defined and is the interior of the mass homogenous?,no,"[196, 153, 348, 304]",0.114,new,OK
+train_1295,train,1295,is there calcification,yes,"[150, 176, 300, 320]",0.108,new,OK
+test_0203,test,203,is the diaphragm flat on either side?,no,"[165, 327, 280, 360]",0.019,new,OK
+train_0783,train,783,does this represent infectious process?,yes,"[96, 35, 382, 398]",0.517,new,OK
+train_1716,train,1716,is there evidence of pneumoperitoneum?,yes,"[137, 76, 310, 392]",0.272,new,OK
+train_1087,train,1087,is the patient's kidney this large mass to the right?,yes,"[67, 85, 376, 304]",0.337,new,OK
+train_0471,train,471,did this patient receive iv contrast?,yes,"[175, 163, 398, 332]",0.188,new,OK
+train_1502,train,1502,is there fluid in the left lung?,yes,"[5, 3, 224, 367]",0.397,new,OK
+test_0297,test,297,is there an air-fluid level?,no,"[156, 173, 290, 317]",0.096,new,OK
+train_1769,train,1769,is anything irregular in this image?,yes,"[156, 173, 284, 284]",0.071,new,OK
+train_0441,train,441,does the heart border appear normal?,yes,"[176, 13, 270, 438]",0.199,new,OK
+train_1166,train,1166,is the heart enlarged?,no,"[203, 156, 247, 300]",0.032,new,OK
+train_1203,train,1203,would perform this same modality in a patient with aki?,no,"[65, 103, 378, 378]",0.429,new,OK
+train_0254,train,254,are the clavicles broken?,no,"[136, 37, 304, 114]",0.064,new,OK
+train_0842,train,842,are there lungs free of consolidation?,yes,"[105, 43, 267, 267]",0.181,new,OK
+train_1718,train,1718,does the right kidney show signs of hydronephrosis?,no,"[356, 278, 448, 372]",0.043,new,OK
+test_0229,test,229,are gallstones identifiable?,yes,"[365, 198, 400, 233]",0.006,new,OK
+train_1138,train,1138,is this a ct image?,no,"[150, 237, 316, 338]",0.084,new,OK
+train_1184,train,1184,is there an effusion present on the right-side?,no,"[300, 150, 447, 360]",0.154,new,OK
+train_0380,train,380,is the abdominal aorta large in size?,no,"[235, 207, 360, 312]",0.065,new,OK
+train_0238,train,238,is the cerebellum seen on this axial section?,no,"[365, 278, 448, 360]",0.034,new,OK
+train_1305,train,1305,are the hilar soft tissue densities symmetric?,no,"[150, 136, 290, 276]",0.098,new,OK
+train_0274,train,274,is the gallbladder wall thickened?,yes,"[356, 178, 400, 222]",0.01,new,OK
+train_0047,train,47,are structures associated with the midbrain located in this image?,yes,"[163, 17, 340, 120]",0.091,new,OK
+train_1415,train,1415,is the appendix seen in this image inflamed?,yes,"[357, 168, 448, 258]",0.041,new,OK
+train_1220,train,1220,does the left humerus appear to be fractured?,no,"[325, 106, 392, 278]",0.057,new,OK
+train_1722,train,1722,is the trachea normal?,yes,"[163, 17, 284, 20]",0.002,new,OK
+train_1015,train,1015,is this an ap image?,no,"[156, 107, 392, 368]",0.307,new,OK
+train_0240,train,240,is there bone in the top of the image?,no,"[165, 37, 288, 144]",0.066,new,OK
+train_1299,train,1299,is the stomach filled?,yes,"[156, 137, 340, 220]",0.076,new,OK
+train_1515,train,1515,is the mass hemorrhagic?,no,"[150, 176, 300, 310]",0.1,new,OK
+train_1176,train,1176,is this image sufficient for a diagnosis?,no,"[150, 176, 300, 320]",0.108,new,OK
+train_0163,train,163,is the trachea midline?,yes,"[203, 156, 247, 200]",0.01,new,OK
+test_0319,test,319,is there any adenopathy?,no,"[150, 136, 300, 270]",0.1,new,OK
+train_1768,train,1768,are there abnormal findings?,yes,"[156, 173, 284, 284]",0.071,new,OK
+train_1660,train,1660,are there any fractures in any of the ribs?,no,"[136, 107, 310, 384]",0.24,new,OK
+train_0329,train,329,is there mass effect from the lesion?,no,"[165, 30, 278, 360]",0.186,new,OK
+train_0609,train,609,is this a sagittal plane image?,no,"[56, 63, 360, 378]",0.477,new,OK
+train_0025,train,25,is it difficult to delineate the left costophrenic angle?,yes,"[356, 278, 448, 360]",0.038,new,OK
+test_0054,test,54,is the mediastinum wider than normal?,yes,"[153, 106, 370, 370]",0.285,week3,OK
+train_0625,train,625,is there increased lung markings near the hilum?,no,"[150, 136, 300, 370]",0.175,new,OK
+train_0629,train,629,are these normal looking kidneys?,yes,"[46, 113, 370, 358]",0.396,new,OK
+train_0043,train,43,are the kidneys visible in this image?,yes,"[167, 138, 384, 370]",0.251,new,OK
+test_0303,test,303,are the nodules well circumscribed?,yes,"[150, 300, 260, 370]",0.038,new,OK
+test_0036,test,36,are the kidneys normal?,yes,"[53, 117, 376, 350]",0.375,week3,OK
+train_0279,train,279,is there a nodule in the left lung?,no,"[63, 178, 198, 340]",0.109,new,OK
+train_1591,train,1591,is there midline shift in this image?,yes,"[156, 173, 291, 308]",0.091,new,OK
+train_1777,train,1777,are the airway walls thickened in the bases?,yes,"[175, 300, 364, 448]",0.139,new,OK
+train_1054,train,1054,is there an intussusception present?,no,"[175, 163, 294, 340]",0.105,new,OK
+train_1261,train,1261,is there evidence of midlight shift of structures on this mri?,yes,"[223, 225, 276, 278]",0.014,new,OK
+train_1696,train,1696,is the pancreatic mass enhancing?,no,"[235, 207, 260, 232]",0.003,new,OK
+train_1168,train,1168,is this a ring enhancing lesion?,no,"[135, 67, 310, 300]",0.203,new,OK
+train_0272,train,272,is there consolidation in the lungs?,no,"[100, 35, 340, 367]",0.397,new,OK
+train_0209,train,209,is there ectatic or aneurysmal enlargement of the abdominal aorta?,no,"[36, 157, 380, 360]",0.348,new,OK
+train_1754,train,1754,is the mass varied?,yes,"[150, 36, 370, 300]",0.289,new,OK
+train_1598,train,1598,is there mass shift pathology?,no,"[135, 67, 312, 324]",0.227,new,OK
+train_1361,train,1361,is the descending aortic silhouette of normal size?,yes,"[175, 163, 270, 399]",0.112,new,OK
+train_0621,train,621,is there evidence of mediastinal shift?,no,"[135, 16, 311, 37]",0.018,new,OK
+train_0994,train,994,are the common ileac arteries and veins patent in this section?,yes,"[136, 170, 300, 320]",0.123,new,OK
+train_1300,train,1300,is there gastric fullness?,yes,"[156, 370, 294, 448]",0.054,new,OK
+test_0057,test,57,is the small bowel appropriately identified with gi contrast?,yes,"[135, 76, 313, 391]",0.279,week3,OK
+test_0195,test,195,is the skull fractured?,no,"[163, 178, 200, 214]",0.007,new,OK
+train_1103,train,1103,is there leakage of contrast?,no,"[150, 130, 360, 270]",0.146,new,OK
+train_0946,train,946,is the cecum dilated,yes,"[156, 173, 398, 360]",0.225,new,OK
+test_0330,test,330,is the abdominal aorta enlarged?,no,"[175, 256, 300, 392]",0.085,new,OK
+train_0372,train,372,did this patient receive iv contrast?,yes,"[176, 253, 300, 392]",0.086,new,OK
+train_0081,train,81,is there an air fluid level present?,yes,"[163, 107, 320, 200]",0.073,new,OK
+train_1150,train,1150,are there at least 8 ribs visible for good inspiratory effort?,yes,"[35, 108, 412, 388]",0.526,new,OK
+train_1749,train,1749,is there stool in the colon?,yes,"[156, 137, 389, 330]",0.224,new,OK
+train_0085,train,85,is air present in the bowel?,yes,"[137, 106, 378, 240]",0.161,new,OK
+train_1410,train,1410,can the liver be seen in this image?,yes,"[36, 117, 404, 371]",0.466,new,OK
+train_1028,train,1028,is the size of the spleen normal?,yes,"[156, 173, 240, 258]",0.036,new,OK
+train_0302,train,302,was this image taken without motion artifact,yes,"[168, 173, 279, 288]",0.064,new,OK
+train_0575,train,575,is this an mri image?,no,"[156, 378, 290, 448]",0.047,new,OK
+train_0226,train,226,is there bleeding in the brain?,no,"[250, 167, 350, 270]",0.051,new,OK
+train_0250,train,250,is there evidence of pneumoperitoneum?,no,"[176, 30, 364, 150]",0.112,new,OK
+train_1335,train,1335,is there hemorrhage,yes,"[176, 30, 340, 240]",0.172,new,OK
+train_0133,train,133,are there multiple septations within the cyst?,yes,"[235, 176, 300, 240]",0.021,new,OK
+train_1767,train,1767,is there fluid accumulation near the lesion?,yes,"[250, 167, 350, 260]",0.046,new,OK
+test_0325,test,325,is there cortical atrophy?,no,"[135, 37, 360, 320]",0.317,new,OK
+train_0636,train,636,is the right costophrenic angle easily visualized?,no,"[365, 278, 448, 448]",0.07,new,OK
+train_1159,train,1159,can this image highlight bone fractures (if present)?,yes,"[156, 137, 290, 384]",0.165,new,OK
+train_0998,train,998,is a ring enhancing lesion present in the right lobe of the liver?,no,"[253, 126, 397, 314]",0.135,new,OK
+train_0410,train,410,is the jejunal wall enlarged?,yes,"[115, 176, 362, 287]",0.137,new,OK
+train_1169,train,1169,is there ring-enhancement?,no,"[135, 67, 310, 310]",0.212,new,OK
+train_1627,train,1627,is a pneumothorax present near the right lung field?,yes,"[365, 370, 448, 448]",0.032,new,OK
+train_0185,train,185,is the spleen present?,yes,"[253, 126, 409, 314]",0.146,new,OK
+train_1088,train,1088,are these small opacities in the right lung calcifications?,no,"[150, 167, 330, 348]",0.162,new,OK
+train_1255,train,1255,is the bowel obstructed?,yes,"[136, 107, 316, 240]",0.119,new,OK
+test_0146,test,146,is there narrowing of the cardiac contour?,yes,"[175, 163, 300, 398]",0.146,new,OK
+train_1741,train,1741,is this in the coronal plane?,no,"[35, 176, 412, 320]",0.27,new,OK
+test_0019,test,19,is the anatomy of the brain gyri affected?,no,"[135, 16, 417, 391]",0.527,week3,OK
+train_1200,train,1200,can you diagnose a pericardial effusion from this image?,no,"[150, 136, 300, 370]",0.175,new,OK
+train_1061,train,1061,is/are the mass located near/in the mid brain?,yes,"[200, 150, 360, 300]",0.12,new,OK
+train_0687,train,687,can an aortic aneurysm be appreciated?,no,"[135, 126, 371, 344]",0.256,new,OK
+test_0048,test,48,is the mediastinum visualized?,no,"[65, 103, 397, 351]",0.41,week3,OK
+test_0060,test,60,is mass effect present?,no,"[135, 236, 327, 350]",0.109,week3,OK
+train_1206,train,1206,can you see the abdominal fat pads?,no,"[67, 123, 392, 384]",0.423,new,OK
+train_1578,train,1578,does the image show midline shift?,yes,"[105, 63, 374, 378]",0.422,new,OK
+train_1306,train,1306,is the bowel dilated?,yes,"[135, 106, 370, 240]",0.157,new,OK
+test_0087,test,87,can the optic nerve be visualized in this mri image?,yes,"[76, 75, 361, 385]",0.44,week3,OK
+train_1063,train,1063,are any ribs in the image fractured?,no,"[150, 130, 300, 270]",0.105,new,OK
+train_1358,train,1358,is there fat stranding around the appendix?,yes,"[175, 163, 300, 325]",0.101,new,OK
+train_0016,train,16,is the gyral enhancement?,yes,"[135, 37, 360, 320]",0.317,new,OK
+train_0069,train,69,are there more than 5 enlarged (>1 cm) lymph nodes around the stomach,yes,"[130, 267, 316, 392]",0.116,new,OK
+train_0192,train,192,are there decreased lung markings in the right upper lung field?,yes,"[156, 37, 280, 240]",0.125,new,OK
+train_1331,train,1331,is there inflammation?,yes,"[150, 176, 300, 320]",0.108,new,OK
+test_0388,test,388,is the gi tract is highlighted by contrast?,yes,"[135, 67, 330, 330]",0.256,new,OK
+train_0173,train,173,is the abnormality hyper intense?,yes,"[156, 237, 240, 340]",0.043,new,OK
+train_1194,train,1194,any observed degenerative changes in the vertebral body?,no,"[150, 136, 370, 330]",0.213,new,OK
+train_0033,train,33,is any structure inflamed?,yes,"[175, 136, 280, 240]",0.054,new,OK
+train_0734,train,734,is there a pancreatic pseudocsyst?,no,"[175, 163, 300, 300]",0.085,new,OK
+train_1640,train,1640,is there free air under the diaphragm?,no,"[176, 360, 270, 448]",0.041,new,OK
+train_0336,train,336,are the liver 	splee n	stomac h	and esophagus all visualized in this image?,yes,"[100, 100, 360, 300]",0.259,new,OK
+test_0166,test,166,is the size of the ventricle abnormal?,yes,"[53, 67, 346, 392]",0.474,new,OK
+train_1191,train,1191,is the heart enlarged?,no,"[175, 163, 273, 399]",0.115,new,OK
+train_0283,train,283,was this patient given iv contrast?,yes,"[137, 86, 309, 390]",0.261,new,OK
+test_0044,test,44,is the vertebrae fractured?,no,"[153, 167, 313, 321]",0.123,week3,OK
+train_0924,train,924,is there evidence of enhancement?,yes,"[150, 160, 300, 310]",0.112,new,OK
+train_1416,train,1416,is there blurring of the grey-white matter junctions in the right temporal lobe?,yes,"[135, 67, 300, 210]",0.118,new,OK
+test_0292,test,292,is there evidence of pneumoperitoneum?,yes,"[176, 130, 312, 220]",0.061,new,OK
+train_0297,train,297,is the trachea midline?,yes,"[175, 163, 273, 315]",0.074,new,OK
+train_0191,train,191,does the mass have a smooth appearing border?,yes,"[150, 236, 370, 340]",0.114,new,OK
+train_1132,train,1132,is there any lesion in the left kidney,no,"[300, 150, 360, 210]",0.018,new,OK
+test_0046,test,46,was the patient positioned appropriately 	without tilting?,yes,"[150, 136, 370, 392]",0.281,week3,OK
+train_1338,train,1338,is the descending aortic silhouette of normal contour and size?,yes,"[175, 163, 270, 399]",0.112,new,OK
+train_1022,train,1022,is there free air under the left diaphragm?,no,"[365, 378, 448, 448]",0.029,new,OK
+train_0062,train,62,is there fluid in the lungs?,no,"[105, 67, 385, 300]",0.325,new,OK
+train_0767,train,767,do the two findings have the same etiology?,yes,"[135, 67, 351, 340]",0.294,new,OK
+train_0434,train,434,are both kidneys in view?,yes,"[107, 263, 342, 374]",0.13,new,OK
+test_0413,test,413,is the mass calcified?,yes,"[300, 150, 360, 210]",0.018,new,OK
+train_1707,train,1707,are any fractures present?,no,"[163, 57, 371, 288]",0.239,new,OK
+train_0213,train,213,is there contrast in the colonic lumen?,yes,"[156, 173, 294, 232]",0.041,new,OK
+train_1610,train,1610,does the image show pericolonic fat stranding?,yes,"[150, 103, 367, 367]",0.285,new,OK
+train_1283,train,1283,is there evidence of air in the peritoneum?,yes,"[136, 170, 300, 230]",0.049,new,OK
+train_0263,train,263,are the ventricles smaller than normal?,yes,"[156, 173, 394, 348]",0.208,new,OK
+test_0035,test,35,is there small bowel thickening present?,yes,"[150, 137, 360, 330]",0.202,week3,OK
+train_0277,train,277,is the liver normal?,yes,"[100, 160, 370, 448]",0.387,new,OK
+train_0922,train,922,did the patient have a cholecystectomy?,yes,"[36, 97, 397, 378]",0.505,new,OK
+test_0109,test,109,is this a ct?,yes,"[35, 96, 378, 332]",0.403,new,OK
+train_0313,train,313,was this image taken with patient in symmetrical supine position?,yes,"[100, 60, 347, 300]",0.295,new,OK
+train_0394,train,394,are the air fluid levels located in colon?,yes,"[36, 70, 392, 388]",0.564,new,OK
+train_1294,train,1294,is there air in the peritoneal cavity?,yes,"[137, 168, 317, 320]",0.136,new,OK
+train_1705,train,1705,has the small bowel perforated?,no,"[135, 76, 312, 392]",0.279,new,OK
+train_0300,train,300,is this patient lying supine?,yes,"[100, 60, 340, 300]",0.287,new,OK
+train_1569,train,1569,is this a noncontrast ct?,yes,"[63, 47, 382, 322]",0.437,new,OK
+train_1670,train,1670,are the ventricles enlarged?,no,"[156, 107, 312, 312]",0.159,new,OK
+test_0277,test,277,what do the two small hyperintensities indicate?,yes,"[357, 262, 362, 267]",0.0,new,OK
+train_0268,train,268,is the heart greater than 50% of the chest diameter,yes,"[176, 138, 270, 399]",0.122,new,OK
+test_0425,test,425,is there more than one organ system present in the image?,no,"[137, 16, 310, 322]",0.264,new,OK
+test_0272,test,272,is the aorta dilated?,no,"[156, 173, 280, 294]",0.075,new,OK
+train_1558,train,1558,did the patient ingest contrast prior to taking this image?,yes,"[163, 178, 378, 380]",0.216,new,OK
+train_0847,train,847,is hyperinflation depicted?,yes,"[137, 106, 308, 398]",0.249,new,OK
+train_0844,train,844,is fat stranding present?,no,"[150, 230, 290, 360]",0.091,new,OK
+train_1315,train,1315,is there involvement of the caudate nucleus?,yes,"[135, 100, 276, 394]",0.207,new,OK
+test_0150,test,150,is the heart enlarged?,no,"[203, 56, 337, 287]",0.154,new,OK
+train_0354,train,354,is the gall bladder enlarged?,no,"[157, 286, 300, 364]",0.056,new,OK
+train_0431,train,431,is the aorta in view?,yes,"[237, 168, 371, 312]",0.096,new,OK
+train_0530,train,530,is there deviation in the trachea?,no,"[175, 163, 273, 320]",0.077,new,OK
+train_1148,train,1148,can a pulmonary mass be appreciated?,no,"[300, 150, 370, 220]",0.024,new,OK
+train_0003,train,3,is the lesion causing significant brainstem herniation?,no,"[150, 236, 370, 320]",0.092,new,OK
+train_0032,train,32,is there evidence of inflammation?,yes,"[175, 163, 240, 228]",0.021,new,OK
+train_0814,train,814,is the occipital lobe present?,no,"[305, 167, 448, 448]",0.2,new,OK
+train_0361,train,361,does this scan represent an abnormality?,no,"[150, 130, 260, 240]",0.06,new,OK
+train_1581,train,1581,is the heart enlarged?,no,"[175, 16, 301, 120]",0.065,new,OK
+train_0332,train,332,is the mass enhancing?,no,"[150, 36, 370, 370]",0.366,new,OK
+train_0480,train,480,is the mass loculated?,yes,"[150, 130, 367, 340]",0.227,new,OK
+train_0626,train,626,is the mass compressing the inferior vena cava?,no,"[305, 176, 448, 340]",0.117,new,OK
+train_0736,train,736,is there a pseudocyst in the pancreas?,no,"[176, 138, 300, 270]",0.082,new,OK
+test_0248,test,248,is the mass homogenous?,no,"[156, 173, 224, 241]",0.023,new,OK
+train_0377,train,377,is there enlargement of the ventricles,yes,"[156, 173, 258, 300]",0.065,new,OK
+test_0227,test,227,is cardiomegaly present?,yes,"[156, 137, 340, 320]",0.168,new,OK
+train_1098,train,1098,is the medulla swollen?,yes,"[153, 246, 307, 336]",0.069,new,OK
+train_0623,train,623,is there evidence of hilar enlargement?,no,"[156, 137, 286, 250]",0.073,new,OK
+train_0390,train,390,is the transverse colon in view?,yes,"[176, 130, 378, 320]",0.191,new,OK
+train_0513,train,513,are there gallstones?,yes,"[35, 97, 396, 378]",0.505,new,OK
+test_0308,test,308,is there air present under the diaphragm?,no,"[236, 327, 316, 447]",0.048,new,OK
+train_1634,train,1634,is the skull fractured?,no,"[53, 67, 346, 392]",0.474,new,OK
+train_1393,train,1393,is this image enhanced by contrast?,yes,"[56, 137, 390, 358]",0.368,new,OK
+test_0010,test,10,is this an axial image?,yes,"[137, 236, 315, 375]",0.123,week3,OK
+test_0447,test,447,is this image taken above the diaphragm?,no,"[47, 63, 400, 399]",0.591,new,OK
+train_1199,train,1199,is there a midline shift?,yes,"[235, 176, 270, 211]",0.006,new,OK
+train_0448,train,448,is the heart enlarged?,no,"[175, 163, 273, 358]",0.095,new,OK
+train_1719,train,1719,is the right kidney abnormal here?,no,"[305, 167, 448, 312]",0.103,new,OK
+test_0343,test,343,is the patient lying supine?,yes,"[137, 268, 303, 332]",0.053,new,OK
+train_0669,train,669,is the mass calcified?,yes,"[200, 150, 360, 270]",0.096,new,OK

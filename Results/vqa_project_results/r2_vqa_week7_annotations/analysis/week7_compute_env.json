@@ -1,0 +1,10 @@
+{
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "loaded_in_4bit": true,
+  "n_cases_per_method": 30,
+  "seed": 7,
+  "model_memory_gb_loaded": 6.86,
+  "transformers": "5.18.0"
+}

@@ -1,0 +1,8 @@
+signal,AUROC,acc_100%,acc_80%,acc_60%,acc_40%
+confidence,0.6734455128205129,0.52,0.57,0.6133333333333333,0.665
+crop agrees with direct,0.6360576923076924,0.52,0.5825,0.66,0.715
+shifted crop agrees with crop,0.5915064102564103,0.52,0.5825,0.6233333333333333,0.68
+masking changes answer (necessity),0.43830128205128205,0.52,0.5525,0.55,0.5
+consistency (3 views agree with direct),0.6763621794871795,0.52,0.59,0.66,0.73
+random crop agrees with direct (control),0.6483974358974359,0.52,0.5825,0.6766666666666666,0.725
+logistic regression (confidence + all checks),0.7319871794871795,0.52,0.585,0.6666666666666666,0.73

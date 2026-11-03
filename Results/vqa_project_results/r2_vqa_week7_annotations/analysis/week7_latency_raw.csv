@@ -1,0 +1,213 @@
+method,case_id,latency_s,model_calls,detector_calls,peak_gpu_gb,answer
+direct,train_0928_q463,1.0238105370003723,1,0,7.062712832,No
+direct,test_0193_q232,1.1998474140000326,1,0,7.063551488,Lungs.
+direct,train_0188_q735,1.662635988999682,1,0,7.063551488,Left pneumothorax.
+direct,test_0120_q2010,1.4003941609998947,1,0,7.063551488,Axial.
+direct,train_0669_q637,1.0588743959997373,1,0,7.063551488,yes
+direct,train_1217_q579,1.270482850999997,1,0,7.063551488,yes
+direct,train_0726_q396,2.3315672509997967,1,0,7.063551488,The image appears to be an axial T2-weighted MRI of the brain
+direct,train_1132_q1759,0.8679663590000928,1,0,7.063551488,No.
+direct,train_1621_q609,0.7854668300001322,1,0,7.063551488,no
+direct,train_0008_q1484,1.3236580110001341,1,0,7.063551488,Left temporal lobe.
+direct,train_1325_q838,0.8722451500002535,1,0,7.063551488,no
+direct,train_0973_q1547,0.9721983539998291,1,0,7.063551488,Superior
+direct,train_0021_q1344,1.082855128999654,1,0,7.063551488,Heterogeneous.
+direct,test_0414_q568,0.8595719089998966,1,0,7.063551488,no
+direct,train_0997_q915,0.8301530020003156,1,0,7.063551488,no
+direct,test_0136_q34,2.1761102479999863,1,0,7.064172032,Middle cerebral artery.
+direct,train_0660_q1555,2.9606010170000445,1,0,7.064172032,"Subarachnoid hemorrhage, Brain tumor, Cerebral ed"
+direct,train_0253_q1353,0.8990785049995793,1,0,7.064172032,Mass.
+direct,train_1095_q1600,0.8077931020002325,1,0,7.064172032,no
+direct,test_0146_q1233,0.8106548780001503,1,0,7.064172032,no
+direct,train_1204_q1195,0.8248009400003866,1,0,7.064172032,yes
+direct,train_0750_q377,1.0859775330000048,1,0,7.064172032,Calcification.
+direct,train_0035_q474,1.3169826140001533,1,0,7.064172032,Diffuse.
+direct,train_0225_q2098,0.9464363549996051,1,0,7.064172032,yes
+direct,test_0443_q1336,1.2862551500002155,1,0,7.064172032,Sigmoid Colon
+direct,test_0124_q1981,1.0153477240000939,1,0,7.064172032,Yes
+direct,test_0247_q1437,1.0404857180001272,1,0,7.064172032,no
+direct,train_0621_q623,1.4911163780002425,1,0,7.064172032,no
+direct,train_0679_q1259,2.0606330840000737,1,0,7.064172032,Abscess.
+direct,train_0840_q517,1.3541462729999694,1,0,7.064172032,Cysticercosis.
+cot,train_0928_q463,13.857273079000151,1,0,7.065879552,"To determine if this is an anterior-posterior (AP) image, let's analyze the key "
+cot,test_0193_q232,15.385299900000064,1,0,7.066810368,"To analyze the image step by step:
+
+1. **Identify the Image Type**: The image ap"
+cot,train_0188_q735,18.034830032999707,1,0,7.066810368,"To determine why the left hemithorax appears more lucent in this chest X-ray, le"
+cot,test_0120_q2010,15.996729355000298,1,0,7.066810368,"To determine the plane of the image, let's analyze the characteristics observed:"
+cot,train_0669_q637,16.614694964000137,1,0,7.066810368,"To determine if the mass is calcified in the provided CT scan image, let's follo"
+cot,train_1217_q579,16.436227144999975,1,0,7.066810368,"To determine if the adrenal glands are visible in this image, let's follow these"
+cot,train_0726_q396,12.463374363000185,1,0,7.066810368,"To determine the potential neurological deficits based on the MRI image, let's a"
+cot,train_1132_q1759,8.495892359999743,1,0,7.066810368,"To determine if there is a lesion in the left kidney, let's analyze the image st"
+cot,train_1621_q609,8.017934913999852,1,0,7.066810368,"To determine if the mass is contrast-enhancing in this CT scan, let's follow the"
+cot,train_0008_q1484,7.857093177000024,1,0,7.066810368,"To determine where the mass is located in the provided MRI image, let's follow t"
+cot,train_1325_q838,8.450151216999984,1,0,7.066810368,"To determine if there is gallbladder pathology in this CT scan, let's analyze th"
+cot,train_0973_q1547,7.56894576600007,1,0,7.066810368,To determine whether the calcifications are superior or inferior to the diaphrag
+cot,train_0021_q1344,8.50106267000001,1,0,7.066810368,"To analyze the characteristics of the mass in the provided MRI image, let's brea"
+cot,test_0414_q568,8.11015843999985,1,0,7.066810368,"To determine if this looks like a healthy liver, let's analyze the image step by"
+cot,train_0997_q915,7.857957489,1,0,7.066810368,"To determine if the liver is normal in this CT scan, let's analyze the image ste"
+cot,test_0136_q34,8.276649306999843,1,0,7.067433472,To determine which major artery of the brain might be affected by the lesion see
+cot,train_0660_q1555,9.524754432000009,1,0,7.067433472,"To determine the possible diagnoses from the provided MRI image, let's analyze t"
+cot,train_0253_q1353,8.12839171099995,1,0,7.067433472,"To analyze the abnormal contour of the left hilum in the given chest X-ray, let'"
+cot,train_1095_q1600,8.360258088000137,1,0,7.067433472,"To determine if the basal ganglia are enlarged in this MRI image, let's follow t"
+cot,test_0146_q1233,7.636326325000027,1,0,7.067433472,"To determine if there is narrowing of the cardiac contour in this chest X-ray, l"
+cot,train_1204_q1195,8.40449562599997,1,0,7.067433472,To determine if abdominal fat pads are prominently visualized in the provided CT
+cot,train_0750_q377,9.837296434000109,1,0,7.067433472,To analyze the image and determine the nature of the white nodules on the bilate
+cot,train_0035_q474,10.176837664000232,1,0,7.067433472,"To analyze the distribution of the findings in the chest X-ray image provided, l"
+cot,train_0225_q2098,8.578240571000151,1,0,7.067433472,"To determine if the patient was given oral contrast in this CT scan image, let's"
+cot,test_0443_q1336,7.923721203999776,1,0,7.067433472,To determine what structure lies directly posterior to the appendix in this imag
+cot,test_0124_q1981,7.854904376999912,1,0,7.067433472,To determine if the cardiac silhouette is less than half the diameter of the dia
+cot,test_0247_q1437,8.551904220999859,1,0,7.067433472,"To determine if the mass is well circumscribed, we need to analyze the image ste"
+cot,train_0621_q623,7.577089298999908,1,0,7.067433472,"To determine if there is evidence of mediastinal shift in this chest X-ray, let'"
+cot,train_0679_q1259,8.310709729999871,1,0,7.067433472,"To determine the type of lesion suggested by the image, let's analyze the key fe"
+cot,train_0840_q517,7.757039245999749,1,0,7.067433472,"To analyze the lesion in the provided MRI image, let's break down the observatio"
+self_consistency,train_0928_q463,3.732366116999856,5,0,7.062712832,no
+self_consistency,test_0193_q232,4.46148770300033,5,0,7.063551488,bowel loops
+self_consistency,train_0188_q735,5.4153715910001665,5,0,7.063551488,left pneumothorax
+self_consistency,test_0120_q2010,4.389203411000381,5,0,7.063551488,axial
+self_consistency,train_0669_q637,3.6472680169999876,5,0,7.063551488,yes
+self_consistency,train_1217_q579,3.6670200690000456,5,0,7.063551488,yes
+self_consistency,train_0726_q396,8.193477291000363,5,0,7.063551488,"the image shows an mri of the brain, with the signal loss or abnormal"
+self_consistency,train_1132_q1759,3.88725262700018,5,0,7.063551488,no
+self_consistency,train_1621_q609,3.7272138319999613,5,0,7.063551488,no
+self_consistency,train_0008_q1484,5.17836785999998,5,0,7.063551488,cerebellum
+self_consistency,train_1325_q838,3.6790964629999507,5,0,7.063551488,no
+self_consistency,train_0973_q1547,4.045914326000002,5,0,7.063551488,superior
+self_consistency,train_0021_q1344,5.15494801199975,5,0,7.063551488,isodense
+self_consistency,test_0414_q568,3.704840172999866,5,0,7.063551488,yes
+self_consistency,train_0997_q915,3.7103699270001016,5,0,7.063551488,no
+self_consistency,test_0136_q34,4.878936362999866,5,0,7.064172032,middle cerebral artery
+self_consistency,train_0660_q1555,5.9331654399998115,5,0,7.064172032,cyst
+self_consistency,train_0253_q1353,4.524773427999662,5,0,7.064172032,mass
+self_consistency,train_1095_q1600,3.871356413000285,5,0,7.064172032,no
+self_consistency,test_0146_q1233,3.695494171000064,5,0,7.064172032,no
+self_consistency,train_1204_q1195,3.6934967010001856,5,0,7.064172032,yes
+self_consistency,train_0750_q377,5.300762272999691,5,0,7.064172032,calcification
+self_consistency,train_0035_q474,4.51008276399989,5,0,7.064172032,diffuse
+self_consistency,train_0225_q2098,3.672304737000104,5,0,7.064172032,yes
+self_consistency,test_0443_q1336,4.55132714299998,5,0,7.064172032,ascending colon
+self_consistency,test_0124_q1981,3.7750914440002816,5,0,7.064172032,yes
+self_consistency,test_0247_q1437,3.7202910149999298,5,0,7.064172032,no
+self_consistency,train_0621_q623,3.730009766999956,5,0,7.064172032,no
+self_consistency,train_0679_q1259,4.3962896319999345,5,0,7.064172032,abscess
+self_consistency,train_0840_q517,5.174450487000286,5,0,7.064172032,cysticercosis
+tiling,train_0928_q463,3.8852362330003416,5,0,7.062712832,No
+tiling,test_0193_q232,4.713417306999872,5,0,7.063551488,Lungs.
+tiling,train_0188_q735,6.465832143000171,5,0,7.063551488,Left pneumothorax.
+tiling,test_0120_q2010,4.452857145000053,5,0,7.063551488,Axial.
+tiling,train_0669_q637,3.9348657780001304,5,0,7.063551488,yes
+tiling,train_1217_q579,3.754615154000021,5,0,7.063551488,yes
+tiling,train_0726_q396,7.641282349999983,5,0,7.063551488,The image appears to be an axial T2-weighted MRI of the brain
+tiling,train_1132_q1759,4.003550296999947,5,0,7.063551488,No.
+tiling,train_1621_q609,3.767777097999897,5,0,7.063551488,no
+tiling,train_0008_q1484,4.973118848000013,5,0,7.063551488,Left temporal lobe.
+tiling,train_1325_q838,3.891220846000124,5,0,7.063551488,no
+tiling,train_0973_q1547,4.204409426999973,5,0,7.063551488,Superior
+tiling,train_0021_q1344,5.395591070000137,5,0,7.063551488,Heterogeneous.
+tiling,test_0414_q568,3.952020184999583,5,0,7.063551488,no
+tiling,train_0997_q915,3.8720902049999495,5,0,7.063551488,no
+tiling,test_0136_q34,4.749323692999951,5,0,7.064172032,Middle cerebral artery.
+tiling,train_0660_q1555,7.40386846399997,5,0,7.064172032,"Subarachnoid hemorrhage, Brain tumor, Cerebral ed"
+tiling,train_0253_q1353,6.39100651300032,5,0,7.064172032,Mass.
+tiling,train_1095_q1600,3.9508163750001586,5,0,7.064172032,no
+tiling,test_0146_q1233,3.9008039969999118,5,0,7.064172032,no
+tiling,train_1204_q1195,3.8120279830000072,5,0,7.064172032,yes
+tiling,train_0750_q377,4.535034794000239,5,0,7.064172032,Calcification.
+tiling,train_0035_q474,4.557262685000296,5,0,7.064172032,Diffuse.
+tiling,train_0225_q2098,3.8776063370000884,5,0,7.064172032,yes
+tiling,test_0443_q1336,4.231492856999921,5,0,7.064172032,Sigmoid Colon
+tiling,test_0124_q1981,3.725072516000182,5,0,7.064172032,Yes
+tiling,test_0247_q1437,3.8356607549999353,5,0,7.064172032,no
+tiling,train_0621_q623,3.920180746999904,5,0,7.064172032,no
+tiling,train_0679_q1259,4.4314058140003,5,0,7.064172032,Abscess.
+tiling,train_0840_q517,4.980328619999909,5,0,7.064172032,Cysticercosis.
+vlm_crop,train_0928_q463,6.58522879200018,2,0,7.0856064,No
+vlm_crop,test_0193_q232,5.9891987510000035,2,0,7.08621312,Calcifications.
+vlm_crop,train_0188_q735,7.799043170999994,2,0,7.08621312,The left hemithorax appears more lucent (lighter) in
+vlm_crop,test_0120_q2010,6.192060427999877,2,0,7.08621312,Axial.
+vlm_crop,train_0669_q637,6.7749575549996734,2,0,7.08621312,No.
+vlm_crop,train_1217_q579,6.1915964239997265,2,0,7.08621312,Yes.
+vlm_crop,train_0726_q396,8.386136954999984,2,0,7.08621312,"The image appears to be an MRI scan of the brain, specifically showing the"
+vlm_crop,train_1132_q1759,5.960318352000286,2,0,7.08621312,No.
+vlm_crop,train_1621_q609,6.515974493000158,2,0,7.08621312,No.
+vlm_crop,train_0008_q1484,6.09784509300016,2,0,7.08621312,Left temporal lobe.
+vlm_crop,train_1325_q838,6.540585349000139,2,0,7.08621312,No.
+vlm_crop,train_0973_q1547,6.253980082999988,2,0,7.08621312,Superior.
+vlm_crop,train_0021_q1344,8.993514302000222,2,0,7.08621312,"The mass appears to be well-defined with a heterogeneous signal intensity, sugge"
+vlm_crop,test_0414_q568,6.685349643999871,2,0,7.08621312,No.
+vlm_crop,train_0997_q915,7.368431002999841,2,0,7.08621312,No
+vlm_crop,test_0136_q34,6.1220050029996855,2,0,7.087604736,Middle cerebral artery.
+vlm_crop,train_0660_q1555,8.182952929999828,2,0,7.087604736,"Brain tumor, stroke, abscess."
+vlm_crop,train_0253_q1353,6.743747715999689,2,0,7.087604736,The abnormal contour of the left hilum suggests possible mediastinal lymphaden
+vlm_crop,train_1095_q1600,6.519297599999845,2,0,7.087604736,no
+vlm_crop,test_0146_q1233,6.159746948000247,2,0,7.087604736,No.
+vlm_crop,train_1204_q1195,6.908442466999986,2,0,7.087604736,Yes.
+vlm_crop,train_0750_q377,5.7528081619998375,2,0,7.087604736,Calcifications.
+vlm_crop,train_0035_q474,7.1727212509999845,2,0,7.087604736,Diffuse.
+vlm_crop,train_0225_q2098,6.1149451670003145,2,0,7.087604736,No.
+vlm_crop,test_0443_q1336,7.188322099999823,2,0,7.087604736,Colon.
+vlm_crop,test_0124_q1981,6.331219580999914,2,0,7.087604736,No
+vlm_crop,test_0247_q1437,7.548692340000343,2,0,7.087604736,Yes.
+vlm_crop,train_0621_q623,5.896448020000207,2,0,7.087604736,No.
+vlm_crop,train_0679_q1259,6.804484307000166,2,0,7.087604736,Abscess.
+vlm_crop,train_0840_q517,6.368806561999918,2,0,7.087604736,Cyst.
+grounder_crop,train_0928_q463,1.5636673890003294,1,1,7.715478528,No
+grounder_crop,test_0193_q232,1.3793403990002844,1,1,7.715478528,Lungs.
+grounder_crop,train_0188_q735,1.733446790999551,1,1,7.715478528,Herniated diaphragm.
+grounder_crop,test_0120_q2010,1.4497915669999202,1,1,7.715478528,Axial.
+grounder_crop,train_0669_q637,1.236210824000409,1,1,7.715478528,yes
+grounder_crop,train_1217_q579,1.279063042999951,1,1,7.715478528,Yes.
+grounder_crop,train_0726_q396,1.992486201000247,1,1,7.715478528,The image appears to be an axial T2-weighted MRI of the brain
+grounder_crop,train_1132_q1759,1.2756339210000078,1,1,7.715478528,No.
+grounder_crop,train_1621_q609,1.2821636590006165,1,1,7.715478528,No.
+grounder_crop,train_0008_q1484,1.4523527869996542,1,1,7.715478528,Left temporal lobe.
+grounder_crop,train_1325_q838,1.2263967240005513,1,1,7.715478528,no
+grounder_crop,train_0973_q1547,1.4146062899999379,1,1,7.715478528,Superior.
+grounder_crop,train_0021_q1344,1.4923430320004627,1,1,7.715478528,Heterogeneous.
+grounder_crop,test_0414_q568,1.3197817809996195,1,1,7.715478528,No.
+grounder_crop,train_0997_q915,1.2418204240002524,1,1,7.715478528,No
+grounder_crop,test_0136_q34,1.4354119899999205,1,1,7.715478528,Middle cerebral artery.
+grounder_crop,train_0660_q1555,1.5321658409993688,1,1,7.715478528,"Tumor, abscess."
+grounder_crop,train_0253_q1353,1.286346878000586,1,1,7.715478528,Mass.
+grounder_crop,train_1095_q1600,1.2260212849996606,1,1,7.715478528,no
+grounder_crop,test_0146_q1233,1.2293519469994862,1,1,7.715478528,no
+grounder_crop,train_1204_q1195,1.284128444000089,1,1,7.715478528,Yes.
+grounder_crop,train_0750_q377,1.3999957260002702,1,1,7.715478528,Calcifications.
+grounder_crop,train_0035_q474,1.4161442049999096,1,1,7.715478528,Diffuse.
+grounder_crop,train_0225_q2098,1.333621112000401,1,1,7.715478528,No.
+grounder_crop,test_0443_q1336,1.4250439469997218,1,1,7.715478528,Sigmoid colon.
+grounder_crop,test_0124_q1981,1.2367306320002172,1,1,7.715478528,Yes
+grounder_crop,test_0247_q1437,1.2941341619998639,1,1,7.715478528,No.
+grounder_crop,train_0621_q623,1.2420330139993894,1,1,7.715478528,no
+grounder_crop,train_0679_q1259,1.3491650420000951,1,1,7.715478528,Abscess.
+grounder_crop,train_0840_q517,1.5235006140001133,1,1,7.715478528,Cysticercosis.
+full_r2vqa,train_0928_q463,9.046298086000206,5,0,7.0856064,No
+full_r2vqa,test_0193_q232,8.887147675999586,5,0,7.08621312,Calcifications.
+full_r2vqa,train_0188_q735,10.866503755999474,5,0,7.08621312,Left pneumothorax.
+full_r2vqa,test_0120_q2010,9.28521476900005,5,0,7.08621312,Axial.
+full_r2vqa,train_0669_q637,9.048084371999721,5,0,7.08621312,No.
+full_r2vqa,train_1217_q579,8.453395705999355,5,0,7.08621312,Yes.
+full_r2vqa,train_0726_q396,12.788699871000063,5,0,7.08621312,"The image appears to be an MRI scan of the brain, specifically showing the"
+full_r2vqa,train_1132_q1759,9.212516718000188,5,0,7.08621312,No.
+full_r2vqa,train_1621_q609,8.075555114000053,5,0,7.08621312,No.
+full_r2vqa,train_0008_q1484,9.008863856000062,5,0,7.08621312,Left temporal lobe.
+full_r2vqa,train_1325_q838,9.05801584799974,5,0,7.08621312,No.
+full_r2vqa,train_0973_q1547,8.761190986000656,5,0,7.08621312,Superior.
+full_r2vqa,train_0021_q1344,11.147233766999307,5,0,7.08621312,Heterogeneous.
+full_r2vqa,test_0414_q568,9.599288987999898,5,0,7.08621312,No.
+full_r2vqa,train_0997_q915,9.382145497999772,5,0,7.08621312,No
+full_r2vqa,test_0136_q34,8.794613590999688,5,0,7.087604736,Middle cerebral artery.
+full_r2vqa,train_0660_q1555,12.036260382999899,5,0,7.087604736,"Subarachnoid hemorrhage, Brain tumor, Cerebral ed"
+full_r2vqa,train_0253_q1353,10.723922872999538,5,0,7.087604736,Mass.
+full_r2vqa,train_1095_q1600,8.699034751,5,0,7.087604736,no
+full_r2vqa,test_0146_q1233,8.384126539000135,5,0,7.087604736,No.
+full_r2vqa,train_1204_q1195,9.009325528000772,5,0,7.087604736,Yes.
+full_r2vqa,train_0750_q377,8.835471209999923,5,0,7.087604736,Calcifications.
+full_r2vqa,train_0035_q474,9.038547705000383,5,0,7.087604736,Diffuse.
+full_r2vqa,train_0225_q2098,9.218642490000093,5,0,7.087604736,No.
+full_r2vqa,test_0443_q1336,9.321492811999633,5,0,7.087604736,Sigmoid Colon
+full_r2vqa,test_0124_q1981,8.58985203499924,5,0,7.087604736,Yes
+full_r2vqa,test_0247_q1437,9.745365187999596,5,0,7.087604736,no
+full_r2vqa,train_0621_q623,8.524201336999795,5,0,7.087604736,No.
+full_r2vqa,train_0679_q1259,8.520358167000268,5,0,7.087604736,Abscess.
+full_r2vqa,train_0840_q517,9.991426030000184,5,0,7.087604736,Cyst.

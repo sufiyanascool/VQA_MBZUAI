@@ -1,0 +1,7 @@
+check,passed,n,accuracy
+sufficiency,True,230,0.7043478260869566
+sufficiency,False,341,0.4340175953079179
+necessity,True,400,0.4625
+necessity,False,171,0.7309941520467836
+stability,True,502,0.5876494023904383
+stability,False,69,0.21739130434782608

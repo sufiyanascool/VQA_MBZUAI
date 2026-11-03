@@ -1,0 +1,54 @@
+{
+    "risk_coverage_analysis": [
+        {
+            "Model": "Raw Confidence Only",
+            "AURC": 0.5634126984126985,
+            "Risk @ 20% Coverage": 0.3333333333333333,
+            "Risk @ 40% Coverage": 0.3333333333333333,
+            "Risk @ 60% Coverage": 0.3333333333333333,
+            "Risk @ 80% Coverage": 0.5,
+            "Risk @ 100% Coverage": 0.5
+        },
+        {
+            "Model": "Evidence Only",
+            "AURC": 0.19718253968253968,
+            "Risk @ 20% Coverage": 0.0,
+            "Risk @ 40% Coverage": 0.16666666666666666,
+            "Risk @ 60% Coverage": 0.16666666666666666,
+            "Risk @ 80% Coverage": 0.375,
+            "Risk @ 100% Coverage": 0.5
+        },
+        {
+            "Model": "Combined Confidence + Evidence",
+            "AURC": 0.19718253968253968,
+            "Risk @ 20% Coverage": 0.0,
+            "Risk @ 40% Coverage": 0.16666666666666666,
+            "Risk @ 60% Coverage": 0.16666666666666666,
+            "Risk @ 80% Coverage": 0.375,
+            "Risk @ 100% Coverage": 0.5
+        }
+    ],
+    "error_detection_analysis": [
+        {
+            "Model": "Raw Confidence Only",
+            "Error Detection AUROC": 0.4,
+            "Error Detection AUPRC": 0.5,
+            "Error Detection AURC": 0.5050793650793651
+        },
+        {
+            "Model": "Evidence Only",
+            "Error Detection AUROC": 0.8,
+            "Error Detection AUPRC": 0.7142857142857143,
+            "Error Detection AURC": 0.19718253968253968
+        },
+        {
+            "Model": "Combined Confidence + Evidence",
+            "Error Detection AUROC": 0.8,
+            "Error Detection AUPRC": 0.7142857142857143,
+            "Error Detection AURC": 0.19718253968253968
+        }
+    ],
+    "go_nogo_decision": "GO",
+    "go_nogo_reason": "Evidence Only model improved error detection AUROC (from 0.400 to 0.800). Combined model also improved error detection AUROC (from 0.400 to 0.800). Evidence Only model also improved error detection AURC (from 0.505 to 0.197). Combined model also improved error detection AURC (from 0.505 to 0.197). ",
+    "test_set_untouched": "YES"
+}

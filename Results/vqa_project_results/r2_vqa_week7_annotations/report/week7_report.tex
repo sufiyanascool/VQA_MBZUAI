@@ -1,0 +1,192 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{times}
+
+\title{Week 7 Report: Evidence Annotations and Error Analysis for R2 VQA}
+\author{Sofiyan Shaikh}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+This report covers the Week 7 work of the R2 VQA project. The plan for this week had four parts: collect evidence annotations,
+measure how well the proposed regions land on the right anatomy and how faithful the causal checks are, manually categorize
+failures, and document compute and latency. Each part is covered below, together with the problems I ran into on the way.
+
+\section{Evidence Annotation}
+I annotated 398 cases from the 500 case development subset that was built in Week 5. On each image a red box shows the region
+proposed by the vision language model. These boxes had already been filtered so that none covers more than 60 percent of the image.
+I removed 52 of the 500 cases because their questions are about the whole image (plane, modality or contrast questions) and have
+no region to point at, which left 448 eligible cases. From these, 400 were sampled for annotation and 2 of them
+were left unlabelled. The boxes in this set are fairly small: the median box covers 12 percent of the image and
+67 percent of the boxes cover less than 20 percent of it.
+
+For each case I marked the box as Correct (it sits on the structure the question is about), Partial (right area but not on the
+exact structure) or Wrong (not near the structure). I am a biomedical engineering student and not a radiologist, so these labels
+check whether the box is anatomically plausible and not whether it is clinically correct.
+
+\subsection{An earlier attempt with Grounding DINO boxes}
+My first annotation set used the boxes from the Grounding DINO baseline of Week 6. Across all 2244 of those boxes the mean box
+covered 71.2 percent of the image, the median covered 74.4 percent and none covered less than 20 percent. Boxes this large overlap
+almost anything. Of the 27 cases I labelled before stopping, 25 were Partial, 2 were Correct and none were Wrong. The same pattern
+was visible in Week 2, where the Grounding DINO proposals had a median size of 73 percent of the image against 20 percent for the
+language model proposals (computed from the 100 Week 2 cases). The Week 6 language model boxes were larger than in Week 2, with a mean
+of 67.8 percent of the image and only 1.95 percent of them under 20 percent. One possible reason is that the Week 2 notebook loaded
+Qwen3 VL 8B while Weeks 5 and 6 used Qwen2.5 VL 7B, but I have not confirmed this. I switched the annotation set to the Week 5 boxes, which are the
+same boxes the ablations in Week 6 used, and kept my first 27 labels as a backup.
+
+\section{Localization Results}
+Pointing game accuracy, meaning the share of boxes I marked Correct, was 88.4 percent on 398 labelled cases. If Partial boxes are also counted as hits it is 96.5 percent. Among modalities with at least 20 cases, accuracy was highest for XRAY (93.5 percent) and lowest for CT (84.7 percent).
+
+\begin{table}[h]
+\centering
+\caption{Box labels from the manual review}
+\begin{tabular}{lrr}
+\toprule
+Label & Cases & Share \\
+\midrule
+Correct & 352 & 88.4\% \\
+Partial & 32 & 8.0\% \\
+Wrong & 14 & 3.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Pointing game accuracy by imaging modality}
+\begin{tabular}{lrr}
+\toprule
+Modality & Cases & Pointing game accuracy \\
+\midrule
+XRAY & 153 & 0.935 \\
+MRI & 75 & 0.867 \\
+CT & 170 & 0.847 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+I did not compute box IoU. IoU needs an independent reference box, and I did not draw corrected boxes for the Partial and Wrong cases,
+so any IoU value would only compare Correct boxes with themselves.
+
+\section{Causal Faithfulness}
+The Full R2 VQA method gives each answer three checks. Sufficiency passes if the cropped region alone gives the same answer as the full image. Necessity passes if blacking out the region changes the answer. Stability passes if a slightly shifted box gives the same crop answer. The number of checks passed is the reliability score.
+
+\begin{table}[h]
+\centering
+\caption{Accuracy of Full R2 VQA answers when each causal check passes or fails}
+\begin{tabular}{lrrrr}
+\toprule
+Check & n passed & Acc. if passed & n failed & Acc. if failed \\
+\midrule
+Sufficiency & 230 & 0.704 & 341 & 0.434 \\
+Necessity & 400 & 0.463 & 171 & 0.731 \\
+Stability & 502 & 0.588 & 69 & 0.217 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Sufficiency and stability go with correct answers. Accuracy was 70.4 percent when sufficiency passed against 43.4 percent when it failed, and 58.8 percent when stability passed against 21.7 percent when it failed. Necessity behaved differently. Accuracy was 46.2 percent when blacking out the box changed the answer and 73.1 percent when it did not, which is the opposite of what a useful necessity check should show. It probably measures how fragile an answer is and not how much the model needs that region.
+
+\begin{table}[h]
+\centering
+\caption{Accuracy by number of causal checks passed (Full R2 VQA)}
+\begin{tabular}{rrr}
+\toprule
+Checks passed & Cases & Accuracy \\
+\midrule
+0 & 5 & 0.800 \\
+1 & 81 & 0.296 \\
+2 & 404 & 0.564 \\
+3 & 81 & 0.667 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Used as a score for whether an answer is correct, the number of checks passed gave an AUROC of 0.59 for Full R2 VQA and 0.59 for ablation A1 (0.5 would mean no signal).
+
+\begin{table}[h]
+\centering
+\caption{Answer accuracy by my box label (ablation A1)}
+\begin{tabular}{lrrr}
+\toprule
+Box label & Cases & Answer accuracy & Mean checks passed \\
+\midrule
+Correct & 349 & 0.679 & 1.80 \\
+Partial & 32 & 0.594 & 1.91 \\
+Wrong & 14 & 0.857 & 1.86 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Answer accuracy was 67.9 percent when the box was Correct and 67.4 percent when it was Partial or Wrong (Fisher exact test, p = 1.00). Only 46 cases had a Partial or Wrong box, so a small effect could be hidden. The Week 3 data agrees on stability: the median stability score was 0.63 for cases the model first answered correctly and 0.00 for the others. I leave out the Week 3 sufficiency and necessity values because they contain divide by near zero results such as 800000 and negative 999999.
+
+Taken together, sufficiency and stability behave like consistency checks that track correctness. They are not proof that the model
+uses the evidence region, and the box quality result suggests the answers do not depend much on whether the box is right.
+
+\section{Failure Analysis}
+I sampled 100 wrong answers from the full causal verification run (ablation A1) and sorted each one into one of five categories by looking at the image, the box, the question and the model answer. The categories are my own judgement.
+
+\begin{table}[h]
+\centering
+\caption{Categories of 100 sampled failures}
+\begin{tabular}{lr}
+\toprule
+Category & Cases \\
+\midrule
+Box off target & 3 \\
+Misread finding & 91 \\
+Ambiguous or needs expert & 6 \\
+Scoring or label issue & 0 \\
+Other & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In 43 of the 100 failures the ground truth was yes and the model said no, and in 54 the ground truth was no and the model said yes. In 63 of them at least two of the three causal checks had passed, so the checks did not catch these errors. My earlier box label was Correct for 87 of the 100 failures. Most failures are therefore wrong yes or no judgements on a reasonable box, and bad localization is not the main problem.
+
+\section{Compute and Latency}
+Latency was measured as wall clock seconds per question, including every model call and the box proposal but not image loading. Full R2 VQA was timed end to end including its own direct answer. Peak GPU memory includes the loaded model. The GPU was Tesla T4 and the model was Qwen/Qwen2.5-VL-7B-Instruct. Each method was timed on 30 cases after a warm up.
+
+\begin{table}[h]
+\centering
+\caption{Accuracy, latency per question and compute of each method}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & Accuracy & Median s & 90th pct s & Model calls & Peak GPU GB & Times direct \\
+\midrule
+Direct answer & 0.436 & 1.07 & 2.07 & 1.0 & 7.1 & 1.0 \\
+Chain of thought & 0.129 & 8.43 & 16.04 & 1.0 & 7.1 & 7.9 \\
+Self consistency & 0.409 & 3.97 & 5.31 & 5.0 & 7.1 & 3.7 \\
+Fixed tiling & 0.420 & 4.10 & 6.40 & 5.0 & 7.1 & 3.8 \\
+VLM selected crop & 0.399 & 6.53 & 7.84 & 2.0 & 7.1 & 6.1 \\
+Grounder selected crop & 0.458 & 1.34 & 1.54 & 1.0 & 7.7 & 1.3 \\
+Full R2 VQA & 0.543 & 9.05 & 10.89 & 5.0 & 7.1 & 8.4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+ Full R2 VQA took about 8.4 times as long as a direct answer. Comparing the VLM selected crop with the direct answer suggests that proposing the box alone costs about 5.5 seconds, which is more than half of the Full R2 VQA time. The three verification checks together add roughly 2.5 seconds. The timings come from a shared Colab GPU and a small sample, so they are approximate. Accuracy is taken from the Week 6 runs, where Full R2 VQA was scored on 600 cases and the other methods on 2244.
+
+\section{Limitations}
+\begin{itemize}
+\item The labels come from a non clinician checking anatomical plausibility, so the localization numbers are not clinical accuracy.
+\item The annotated cases are yes or no questions with fairly small boxes, and the questions about the whole image were removed.
+\item Only a small number of cases had a Partial or Wrong box, which limits the test of whether box quality affects answers.
+\item The failure sample comes from one configuration (ablation A1) and the categories are my own judgement.
+\item The necessity check did not work as a faithfulness signal in its current form.
+\item The language model was Qwen3 VL 8B in the Week 2 notebook and Qwen2.5 VL 7B in the later weeks, which could affect how the later results compare with earlier ones.
+\item Latency was measured on a shared Colab GPU with a small sample.
+\end{itemize}
+
+\section{Conclusion}
+The boxes in the final annotation set landed on a plausible structure in most cases, but the answers do not depend on that, since accuracy
+was about the same whether the box was Correct or not. The causal checks for sufficiency and stability track correct answers, while necessity
+does not. Most failures are wrong yes or no judgements on a reasonable box, so improving the model's reading of the finding matters more than
+improving the boxes. Grounding DINO with the generic queries I used was not useful as a source of evidence regions.
+
+\end{document}

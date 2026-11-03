@@ -1,0 +1,7 @@
+{
+    "total_predictions_made_this_run": 0,
+    "total_predictions_in_file": 26,
+    "errors_this_run": 0,
+    "total_inference_time_seconds_this_run": 0.03547310829162598,
+    "output_csv_path": "/content/drive/MyDrive/vqa_project_results/r2_vqa_week5_artifacts/day3_vlm_results/week5_day3_predictions_corrected.csv"
+}
